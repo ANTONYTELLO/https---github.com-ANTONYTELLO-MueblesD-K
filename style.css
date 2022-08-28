@@ -145,7 +145,7 @@ button.normal a {
 /* Home Page */
 
 #hero {
-    background-image: url("img/8722562.jpg");
+    background-image: url("img/8722564.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -568,17 +568,17 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-muebles {
-	0%, 25%{
-		background-image: url("img/bannermodelos/1.jpg");
+	0%, 20%{
+		background-image: url("img/bannermodelos/11.jpg");
 	}
-	25%, 50%{
-		background-image: url("img/bannermodelos/2.jpg");
+	25%, 45%{
+		background-image: url("img/bannermodelos/22.jpg");
 	}
-	50%, 75%{
-		background-image: url("img/bannermodelos/3.jpg");
+	50%, 70%{
+		background-image: url("img/bannermodelos/33.jpg");
 	}
 	75%, 100%{
-		background-image: url("img/bannermodelos/4.jpg");
+		background-image: url("img/bannermodelos/44.jpg");
 	}
 }
 .capa{
@@ -622,17 +622,17 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-muebles321 {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/modu321img/lineal/22.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/modu321img/anyar/anyar22.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/modu321img/coklat/gris2.jpg");
 	}
 	75%, 100%{
-		background-image: url("img/products/modu321img/gala/22.png");
+		background-image: url("img/products/modu321img/gala/22.jpg");
 	}
 }
 
@@ -668,13 +668,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblescama {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/moducamaimg/1.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/moducamaimg/6.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/moducamaimg/9.jpg");
 	}
 	75%, 100%{
@@ -714,13 +714,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblesdual {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/modudualimg/3.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/modudualimg/8.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/modudualimg/100.jpg");
 	}
 	75%, 100%{
@@ -760,13 +760,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblesburbuja {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/moduburbuimg/33.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/moduburbuimg/12.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/moduburbuimg/15.jpg");
 	}
 	75%, 100%{
@@ -805,13 +805,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblesrex {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/modureximg/1.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/modureximg/2.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/modureximg/22.jpg");
 	}
 	75%, 100%{
@@ -850,13 +850,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblesshalom {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/modusheimg/17.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/modusheimg/233.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/modusheimg/16.png");
 	}
 	75%, 100%{
@@ -895,13 +895,13 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-mueblesmodubrazo {
-	0%, 25%{
+	0%, 20%{
 		background-image: url("img/products/modubrazoimg/1.jpg");
 	}
-	25%, 50%{
+	25%, 45%{
 		background-image: url("img/products/modubrazoimg/2.jpg");
 	}
-	50%, 75%{
+	50%, 70%{
 		background-image: url("img/products/modubrazoimg/3.jpg");
 	}
 	75%, 100%{
