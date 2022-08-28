@@ -1,0 +1,1303 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #babdae;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f0f1d9' fill-opacity='0.8' fill-rule='evenodd'/%3E%3C/svg%3E");
+}    
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    color: #222;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 0px 40px;            
+}
+
+.section-p11 {
+    padding: 20px 30px;            
+}
+
+.section-m1 { 
+    margin: 40px 0;           
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #000;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.normal a {
+    color: #000;
+}
+
+/* Header Start */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #babdae;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f0f1d9' fill-opacity='0.8' fill-rule='evenodd'/%3E%3C/svg%3E");
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+
+/* Home Page */
+
+#hero {
+    background-image: url("img/872256.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #222;
+}
+
+#hero p {
+    font-size: 30px;
+    color: #222;
+}
+
+#hero button {
+    background-image: url("img/button123.png");
+    background-color: transparent;
+    color: #222;
+    border: 0;
+    padding: 15px 50px 14px 60px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 210px;
+    text-align: center;
+    padding: 25px 15px;
+    background: #f3e5ab;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #9b806d;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px #343d19;
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    font-size: 16px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 8px;
+    color: #000;
+    background-color: #babdae;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: #606063;
+    font-size: 15px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+#product1 .pro .des i {
+    font-size: 20px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#banner img {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 0px 0; 
+}
+
+#probanner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#probanner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/puff2.jpg");
+    min-width: 900px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#probanner .banner-box2 {
+    background-image: url("img/banqueta88.jpg");
+}
+
+#probanner h4 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#probanner h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#probanner .banner-box:hover button {
+    background: #F0E68C;
+    border: 1px solid #F0E68C;
+}
+
+#banner2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+}
+
+#banner2 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/mesadecentro.jpg");
+    min-width: 32%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+#banner2 .banner-box2 {
+    background-image: url("img/cojines.jpg");
+}
+
+#banner2 .banner-box3 {
+    background-image: url("img/puffcuadrado3.jpg");
+}
+
+#banner2 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#banner2  .banner-box2 h2 ,
+#banner2  .banner-box2 h3 {
+    color: rgb(99, 89, 89);
+}
+
+#banner2  .banner-box3 h2 ,
+#banner2  .banner-box3 h3 {
+    color: #000
+}
+
+#banner2 .banner-box:hover button {
+    background: #F0E68C;
+    border: 1px solid #F0E68C;
+}
+
+#banner2 h3 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Social */
+.social {
+    margin: 40px;
+}
+
+.social p {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.links {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    color: #000;
+    margin: 0 60px;
+}
+
+/* FOOTER LINKS*/
+.footer-links {
+    background: #2f3648;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.footer-container {
+    display: grid;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer-copy {
+    background: #2f3648;
+    color: #616161;
+    font-size: 22px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/* Tienda Page */
+
+#page-header {
+    background-image: url("img/foto.jpg");
+    width: 100%;
+    height: 89vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2 {
+    color: #fff;
+    font-size: 90px;
+    padding: 20px;
+    letter-spacing: 8px;
+}
+
+#page-header p {
+    color: #fff;
+    font-size: 30px;
+}
+
+#pagination {
+    text-align: center;
+    padding: 40px;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Single Product */
+
+#prodetails {
+    display: flex;
+    margin-top: 0px;
+}
+
+#prodetails .single-pro-image {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-datails {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-datails h6 {
+    font-size: 16px;
+}
+
+#prodetails .single-pro-datails h4 {
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-datails h2 {
+    font-size: 30px;
+}
+#prodetails .single-pro-datails pre {
+    font-size: 25px;
+}
+#prodetails .single-pro-datails select {
+    display: block;
+    padding: 5px 100px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-datails input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-datails input:focus {
+    outline: none;
+}
+#prodetails .single-pro-datails button {
+    border-style: solid;
+    border-width: thin;
+}
+
+#prodetails .single-pro-datails span {
+    font-size: 35px;
+}
+
+
+/* Modelos de Muebles */
+
+.mode-muebles {
+	width: 100%;
+	height: 89vh;
+	animation: mode-muebles 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-muebles {
+	0%, 25%{
+		background-image: url("img/bannermodelos/1.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/bannermodelos/2.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/bannermodelos/3.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/bannermodelos/4.jpg");
+	}
+}
+.capa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+}
+.mode-muebles .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 800px;
+	text-align: center;
+}
+.mode-muebles .info h1{
+	color: #fff;
+	font-size: 79px;
+	margin-bottom: 45px;
+	letter-spacing: 3px;
+}
+.mode-muebles .info p{
+	color: #fff;
+    font-size: 30px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+
+/* Modelos Muebles321 */
+
+.mode-muebles321 {
+	width: 100%;
+	height: 89vh;
+	animation: mode-muebles321 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-muebles321 {
+	0%, 25%{
+		background-image: url("img/products/modu321img/lineal/22.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/modu321img/anyar/anyar22.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/modu321img/coklat/gris2.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/modu321img/gala/22.png");
+	}
+}
+
+.mode-muebles321 .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-muebles321 .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-muebles321 .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos Mueblescama */
+
+.mode-mueblescama {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblescama 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblescama {
+	0%, 25%{
+		background-image: url("img/products/moducamaimg/1.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/moducamaimg/6.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/moducamaimg/9.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/moducamaimg/10.jpg");
+	}
+}
+
+.mode-mueblescama .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblescama .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblescama .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos Mueblesdual */
+
+.mode-mueblesdual {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblesdual 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesdual {
+	0%, 25%{
+		background-image: url("img/products/modudualimg/3.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/modudualimg/8.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/modudualimg/100.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/modudualimg/1.jpg");
+	}
+}
+
+.mode-mueblesdual .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesdual .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesdual .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos MueblesBurbuja */
+
+.mode-mueblesburbuja {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblesburbuja 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesburbuja {
+	0%, 25%{
+		background-image: url("img/products/moduburbuimg/33.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/moduburbuimg/12.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/moduburbuimg/15.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/moduburbuimg/7.jpg");
+	}
+}
+.mode-mueblesburbuja .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesburbuja .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesburbuja .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos MueblesRex */
+
+.mode-mueblesrex {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblesrex 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesrex {
+	0%, 25%{
+		background-image: url("img/products/modureximg/1.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/modureximg/2.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/modureximg/22.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/modureximg/3.jpg");
+	}
+}
+.mode-mueblesrex .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesrex .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesrex .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos Mueblesshalom */
+
+.mode-mueblesshalom {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblesshalom 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesshalom {
+	0%, 25%{
+		background-image: url("img/products/modusheimg/17.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/modusheimg/233.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/modusheimg/16.png");
+	}
+	75%, 100%{
+		background-image: url("img/products/modusheimg/14.jpg");
+	}
+}
+.mode-mueblesshalom .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesshalom .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesshalom .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos Mueblesmodubrazo */
+
+.mode-mueblesmodubrazo {
+	width: 100%;
+	height: 89vh;
+	animation: mode-mueblesmodubrazo 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesmodubrazo {
+	0%, 25%{
+		background-image: url("img/products/modubrazoimg/1.jpg");
+	}
+	25%, 50%{
+		background-image: url("img/products/modubrazoimg/2.jpg");
+	}
+	50%, 75%{
+		background-image: url("img/products/modubrazoimg/3.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/modubrazoimg/5.jpg");
+	}
+}
+.mode-mueblesmodubrazo .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesmodubrazo .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesmodubrazo .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+
+/* Start Media Query */
+
+@media (max-width: 899px) {
+    .section-p11 {
+        padding: 40px 20px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100%;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag {
+        display: none;
+    }
+    #probanner .banner-box {
+        min-width: 100%;
+        height: 50vh;
+        padding: 30px;
+    }
+    #banner2 {
+        flex-direction: column;
+    }
+    #product1 .pro {
+        min-width: 380px;
+    }
+
+
+}
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 0px 20px;            
+    }
+    .section-p11 {
+        padding: 40px 20px;            
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100%;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+        height: 90vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        min-width: 334px;
+        margin: 15px;
+    }
+    #banner img {
+        height: 350px;
+    }
+    #probanner .banner-box {
+        min-width: 100%;
+        height: 40vh;
+    }
+    #probanner .banner-box2 {
+        margin-top: 20px;
+    }
+    #banner2 {
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+    #banner2 .banner-box {
+        width: 31%;
+    }
+    /* Tienda Page */
+
+    #page-header h2 {
+        font-size: 100px;
+    }
+    
+    #page-header p {
+        font-size: 30px;
+    }
+    /* Single Product */
+    #prodetails .single-pro-datails span {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 10px;            
+    }
+    .section-p11 {
+        padding: 0px;            
+    }
+    #header {
+        padding: 0px 20px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    #feature {
+        justify-content: space-between;
+    }
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #feature .fe-box h6 {
+        font-size: 15px;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner img {
+        height: 30vh;
+        padding: 0px;
+    }
+    #probanner .banner-box {
+        height: 40vh;
+    }
+    #probanner .banner-box2 {
+        margin-top: 20px;
+    }
+    #banner2 {
+        padding: 0 10px;
+    }
+    #banner2 .banner-box {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .links {
+        font-size: 50px;
+    }
+    .footer-container {
+        padding: 40px 10px;
+    }
+    .footer-mapa {
+        padding: 0 0;
+    }
+    /* Tienda Page */
+
+    #page-header {
+        height: 60vh;
+    }
+
+    #page-header h2 {
+        font-size: 80px;
+    }
+    
+    #page-header p {
+        font-size: 25px;
+    }
+
+    /* Single Product */
+    #prodetails {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-datails {
+        width: 100%;
+        padding-top: 20px;
+    }
+    #prodetails .single-pro-datails h4 {
+        padding: 30px 0 20px 0;
+    }
+    #prodetails .single-pro-datails span {
+        line-height: 31px;
+    }
+
+    /* Modelos de Muebles */
+
+    .mode-muebles {
+        height: 65vh;
+    }
+
+    .mode-muebles .info h1 {
+        font-size: 45px;
+    }
+
+    .mode-muebles .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Muebles321 */
+
+    .mode-muebles321 {
+        height: 65vh;
+    }
+
+    .mode-muebles321 .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-muebles321 .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblescama */
+
+    .mode-mueblescama {
+        height: 65vh;
+    }
+
+    .mode-mueblescama .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblescama .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblesdual */
+
+    .mode-mueblesdual {
+        height: 65vh;
+    }
+
+    .mode-mueblesdual .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesdual .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblesburbuja */
+
+    .mode-mueblesburbuja {
+        height: 65vh;
+    }
+
+    .mode-mueblesburbuja .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesburbuja .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblesrex */
+    
+    .mode-mueblesrex {
+        height: 65vh;
+    }
+
+    .mode-mueblesrex .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesrex .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblesshalom */
+    
+    .mode-mueblesshalom {
+        height: 65vh;
+    }
+
+    .mode-mueblesshalom .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesshalom .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+
+
+}
