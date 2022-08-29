@@ -41,7 +41,7 @@ p {
 }
 
 .section-p1 {
-    padding: 0px 40px;            
+    padding: 0px 30px;            
 }
 
 .section-p11 {
@@ -305,8 +305,6 @@ button.normal a {
 #probanner {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-
 }
 
 #probanner .banner-box {
@@ -345,7 +343,7 @@ button.normal a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 #banner2 .banner-box {
@@ -587,7 +585,7 @@ button.normal a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 }
 .mode-muebles .info{
 	z-index: 1;
@@ -930,6 +928,45 @@ button.normal a {
 
 /* Start Media Query */
 
+@media (max-width: 1280px) {
+    .section-p11 {
+        padding: 20px 20px;
+    }
+    #product1 .pro {
+        min-width: 300px;
+    }
+    #probanner {
+        flex-wrap: wrap;
+    }
+    #probanner .banner-box {
+        min-width: 600px;
+    }
+    #banner2 .banner-box {
+    min-width: 0%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .section-p1 {
+        padding: 0px 20px;
+    }
+    #product1 .pro {
+        min-width: 49%;
+    }
+    #banner2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 10px 20px;
+    }
+    #banner2 .banner-box {
+        height: 40vh;
+    }
+    #probanner .banner-box {
+        min-width: 485px;
+    }
+}
 @media (max-width: 899px) {
     .section-p11 {
         padding: 40px 20px;
@@ -1055,15 +1092,19 @@ button.normal a {
     #feature .fe-box {
         margin: 15px 15px;
     }
-    #product1 .pro-container {
-        justify-content: center;
-    }
     #product1 .pro {
-        min-width: 334px;
-        margin: 15px;
+        min-width: 100%;
+    }
+    #product1 .pro img {
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
     }
     #banner img {
         height: 350px;
+    }
+    #probanner {
+        flex-wrap: wrap;
     }
     #probanner .banner-box {
         min-width: 100%;
@@ -1099,7 +1140,7 @@ button.normal a {
         padding: 10px;            
     }
     .section-p11 {
-        padding: 0px;            
+        padding: 10px;            
     }
     #header {
         padding: 0px 20px;
@@ -1124,12 +1165,17 @@ button.normal a {
     #feature .fe-box h6 {
         font-size: 15px;
     }
-    #product1 .pro {
+    #product1 .pro img {
         width: 100%;
+        height: 250px;
+        border-radius: 20px;
     }
     #banner img {
         height: 30vh;
         padding: 0px;
+    }
+    #probanner {
+        flex-wrap: wrap;
     }
     #probanner .banner-box {
         height: 40vh;
@@ -1138,11 +1184,16 @@ button.normal a {
         margin-top: 20px;
     }
     #banner2 {
+        flex-direction: column;
         padding: 0 10px;
+    }
+    #banner2 h3 {
+        line-height: 40px;
     }
     #banner2 .banner-box {
         width: 100%;
         margin-top: 10px;
+        height: 30vh;
     }
     .links {
         font-size: 50px;
@@ -1294,6 +1345,22 @@ button.normal a {
     }
 
     .mode-mueblesshalom .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
+    /* Modelos de Mueblesmodubrazo */
+    
+    .mode-mueblesmodubrazo {
+        height: 65vh;
+    }
+
+    .mode-mueblesmodubrazo .info h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesmodubrazo .info p{
         color: #fff;
         font-size: 22px;
     }
