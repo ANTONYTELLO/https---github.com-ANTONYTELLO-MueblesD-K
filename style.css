@@ -291,7 +291,7 @@ button.normal a {
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 10px;
 }
 
@@ -894,16 +894,16 @@ button.normal a {
 }
 @keyframes mode-mueblesmodubrazo {
 	0%, 20%{
-		background-image: url("img/products/modubrazoimg/1.jpg");
+		background-image: url("img/products/modubrazoimg/1000.jpg");
 	}
 	25%, 45%{
-		background-image: url("img/products/modubrazoimg/2.jpg");
+		background-image: url("img/products/modubrazoimg/900.jpg");
 	}
 	50%, 70%{
-		background-image: url("img/products/modubrazoimg/3.jpg");
+		background-image: url("img/products/modubrazoimg/501.jpg");
 	}
 	75%, 100%{
-		background-image: url("img/products/modubrazoimg/5.jpg");
+		background-image: url("img/products/modubrazoimg/107.jpg");
 	}
 }
 .mode-mueblesmodubrazo .info{
