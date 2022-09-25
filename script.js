@@ -31,7 +31,7 @@ function modu_brazo(){
     }
     
     if("calidad alta" == select_detalles_modubrazo.value){
-        document.getElementById("modu_brazo_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 5 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza.<br>Patas: Chromadas.<br></span>' ;
+        document.getElementById("modu_brazo_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 5 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas.<br></span>' ;
     }
 
     if("" == select_detalles_modubrazo.value){
@@ -60,7 +60,7 @@ function modular_page(){
     }
     
     if("calidad alta" == detalles_modulares.value){
-        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza.<br>Patas: Chromadas.<br></span>' ;
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas.<br></span>' ;
     }
 
     if("" == detalles_modulares.value){
@@ -80,7 +80,7 @@ function modular_page(){
        }
     
     if("calidad alta2" == detalles_modulares.value){
-        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza.<br>Patas: Chromadas.<br></span>' ;
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas.<br></span>' ;
     }
 
     if("calidad alta2" == detalles_modulares.value){
@@ -93,5 +93,29 @@ function modular_page(){
 
     if("." == detalles_modulares.value){
         document.getElementById("price_modulardiseño").innerHTML = 'S/410 - 460';
+       }
+
+       if("calidad mediacuero" == detalles_modulares.value){
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Media.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: UltraCuero.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas.<br></span>' ;
+    }
+
+    if("calidad mediacuero" == detalles_modulares.value){
+        document.getElementById("price_modularcuero").innerHTML = 'S/440';
+       }
+    
+    if("calidad altacuero" == detalles_modulares.value){
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: UltraCuero.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas.<br></span>' ;
+    }
+
+    if("calidad altacuero" == detalles_modulares.value){
+        document.getElementById("price_modularcuero").innerHTML = 'S/490';
+       }
+
+    if(".." == detalles_modulares.value){
+        document.getElementById("modular_calidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
+    }
+
+    if(".." == detalles_modulares.value){
+        document.getElementById("price_modularcuero").innerHTML = 'S/440 - 490';
        }
 }
