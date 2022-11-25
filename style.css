@@ -48,6 +48,10 @@ p {
     padding: 20px 30px;            
 }
 
+.section-p111 {
+    padding: 0 30px;            
+}
+
 .section-m1 { 
     margin: 40px 0;           
 }
@@ -168,6 +172,7 @@ button.normal a {
 
 #hero p {
     font-size: 30px;
+    font-weight: 700;
     color: #222;
 }
 
@@ -313,7 +318,7 @@ button.normal a {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/puff2.jpg");
-    min-width: 900px;
+    min-width: 49.5%;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -349,7 +354,7 @@ button.normal a {
 #banner2 .banner-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
     background-image: url("img/mesadecentro.jpg");
     min-width: 32%;
@@ -449,7 +454,7 @@ button.normal a {
 #page-header {
     background-image: url("img/foto2.jpg");
     width: 100%;
-    height: 89vh;
+    height: 90vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -557,7 +562,7 @@ button.normal a {
 
 .mode-muebles {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-muebles 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -611,7 +616,7 @@ button.normal a {
 
 .mode-muebles321 {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-muebles321 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -657,7 +662,7 @@ button.normal a {
 
 .mode-mueblescama {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblescama 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -691,6 +696,7 @@ button.normal a {
 	font-size: 65px;
 	margin-bottom: 40px;
 	letter-spacing: 1px;
+    line-height: 90px;
 }
 .mode-mueblescama .info p{
 	color: #c7c7c7;
@@ -703,7 +709,7 @@ button.normal a {
 
 .mode-mueblesdual {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesdual 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -749,7 +755,7 @@ button.normal a {
 
 .mode-mueblesburbuja {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesburbuja 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -782,6 +788,7 @@ button.normal a {
 	font-size: 65px;
 	margin-bottom: 40px;
 	letter-spacing: 1px;
+    line-height: 90px;
 }
 .mode-mueblesburbuja .info p{
 	color: #c7c7c7;
@@ -794,7 +801,7 @@ button.normal a {
 
 .mode-mueblesrex {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesrex 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -839,7 +846,7 @@ button.normal a {
 
 .mode-mueblesshalom {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesshalom 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -872,8 +879,56 @@ button.normal a {
 	font-size: 65px;
 	margin-bottom: 40px;
 	letter-spacing: 1px;
+    line-height: 90px;
 }
 .mode-mueblesshalom .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelos Mueblesmoduvintage */
+
+.mode-mueblesmoduvintage {
+	width: 100%;
+	height: 90vh;
+	animation: mode-mueblesmoduvintage 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-mueblesmoduvintage {
+	0%, 20%{
+		background-image: url("img/products/moduvintageimg/turqueza4.jpg");
+	}
+	25%, 45%{
+		background-image: url("img/products/moduvintageimg/chocolate8.jpg");
+	}
+	50%, 70%{
+		background-image: url("img/products/modubrazoimg/501.jpg");
+	}
+	75%, 100%{
+		background-image: url("img/products/modubrazoimg/107.jpg");
+	}
+}
+.mode-mueblesmoduvintage .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 850px;
+	text-align: center;
+}
+.mode-mueblesmoduvintage .info h1{
+    width: 100%;
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+    line-height: 90px;
+}
+.mode-mueblesmoduvintage .info p{
 	color: #c7c7c7;
     font-size: 25px;
 	line-height: 1.7;
@@ -884,7 +939,7 @@ button.normal a {
 
 .mode-mueblesmodubrazo {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesmodubrazo 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -917,6 +972,7 @@ button.normal a {
 	font-size: 65px;
 	margin-bottom: 40px;
 	letter-spacing: 1px;
+    line-height: 90px;
 }
 .mode-mueblesmodubrazo .info p{
 	color: #c7c7c7;
@@ -929,7 +985,7 @@ button.normal a {
 
 .mode-mueblesmodular {
 	width: 100%;
-	height: 89vh;
+	height: 90vh;
 	animation: mode-mueblesmodular 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
@@ -962,6 +1018,7 @@ button.normal a {
 	font-size: 65px;
 	margin-bottom: 40px;
 	letter-spacing: 1px;
+    line-height: 90px;
 }
 .mode-mueblesmodular .info p{
 	color: #c7c7c7;
@@ -992,7 +1049,13 @@ button.normal a {
 }
 
 @media (max-width: 1024px) {
+    #feature {
+        justify-content: space-around;
+    }
     .section-p1 {
+        padding: 10px 20px;
+    }
+    .section-p111 {
         padding: 0px 20px;
     }
     #product1 .pro {
@@ -1006,9 +1069,12 @@ button.normal a {
     }
     #banner2 .banner-box {
         height: 40vh;
+        justify-content: space-evenly;
+
     }
     #probanner .banner-box {
         min-width: 485px;
+        justify-content: space-evenly;
     }
 }
 @media (max-width: 899px) {
@@ -1078,6 +1144,9 @@ button.normal a {
     }
     .section-p11 {
         padding: 40px 20px;            
+    }
+    .section-p111 {
+        padding: 0 20px;            
     }
 
     #navbar {
@@ -1181,9 +1250,12 @@ button.normal a {
 
 @media (max-width: 477px) {
     .section-p1 {
-        padding: 10px;            
+        padding: 25px;            
     }
     .section-p11 {
+        padding: 10px;            
+    }
+    .section-p111 {
         padding: 10px;            
     }
     #header {
@@ -1279,13 +1351,14 @@ button.normal a {
         padding: 30px 0 20px 0;
     }
     #prodetails .single-pro-datails span {
+        font-size: 20px;
         line-height: 31px;
     }
 
     /* Modelos de Muebles */
 
     .mode-muebles {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-muebles .info h1 {
@@ -1294,13 +1367,13 @@ button.normal a {
 
     .mode-muebles .info p{
         color: #fff;
-        font-size: 22px;
+        font-size: 19px;
     }
 
     /* Modelos de Muebles321 */
 
     .mode-muebles321 {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-muebles321 .info h1 {
@@ -1316,7 +1389,7 @@ button.normal a {
     /* Modelos de Mueblescama */
 
     .mode-mueblescama {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblescama .info h1 {
@@ -1332,7 +1405,7 @@ button.normal a {
     /* Modelos de Mueblesdual */
 
     .mode-mueblesdual {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesdual .info h1 {
@@ -1348,7 +1421,7 @@ button.normal a {
     /* Modelos de Mueblesburbuja */
 
     .mode-mueblesburbuja {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesburbuja .info h1 {
@@ -1364,7 +1437,7 @@ button.normal a {
     /* Modelos de Mueblesrex */
     
     .mode-mueblesrex {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesrex .info h1 {
@@ -1380,7 +1453,7 @@ button.normal a {
     /* Modelos de Mueblesshalom */
     
     .mode-mueblesshalom {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesshalom .info h1 {
@@ -1393,14 +1466,30 @@ button.normal a {
         font-size: 22px;
     }
 
+    /* Modelos de Mueblesmoduvintage */
+    
+    .mode-mueblesmoduvintage {
+        height: 45vh;
+    }
+
+    .mode-mueblesmoduvintage .info h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .mode-mueblesmoduvintage .info p{
+        color: #fff;
+        font-size: 22px;
+    }
+
     /* Modelos de Mueblesmodubrazo */
     
     .mode-mueblesmodubrazo {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesmodubrazo .info h1 {
-        font-size: 45px;
+        font-size: 35px;
         margin-bottom: 20px;
     }
 
@@ -1412,7 +1501,7 @@ button.normal a {
     /* Modelos Mueblesmodular */
     
     .mode-mueblesmodular {
-        height: 65vh;
+        height: 45vh;
     }
 
     .mode-mueblesmodular .info h1 {
