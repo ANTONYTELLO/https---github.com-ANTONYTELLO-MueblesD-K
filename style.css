@@ -905,13 +905,13 @@ button.normal a {
 		background-image: url("img/products/moduvintageimg/turqueza4.jpg");
 	}
 	25%, 45%{
-		background-image: url("img/products/moduvintageimg/chocolate8.jpg");
+		background-image: url("img/products/moduvintageimg/chocolate1.jpg");
 	}
 	50%, 70%{
-		background-image: url("img/products/modubrazoimg/501.jpg");
+		background-image: url("img/products/moduvintageimg/azul2.jpg");
 	}
 	75%, 100%{
-		background-image: url("img/products/modubrazoimg/107.jpg");
+		background-image: url("img/products/moduvintageimg/plomo2.jpg");
 	}
 }
 .mode-mueblesmoduvintage .info{
@@ -1029,6 +1029,14 @@ button.normal a {
 
 /* Start Media Query */
 
+@media (max-width: 1360px) {
+    #product1 .pro {
+        min-width: 32%;
+    }
+    #banner2 .banner-box {
+        min-width: 30%;
+    }
+}
 @media (max-width: 1280px) {
     .section-p11 {
         padding: 20px 20px;
