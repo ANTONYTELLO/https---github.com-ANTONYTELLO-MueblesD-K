@@ -20,11 +20,11 @@ function modu_brazo(){
     console.log(select_detalles_modubrazo.value);
 
     if("" == select_detalles_modubrazo.value){
-        document.getElementById("price_modubrazo").innerHTML = 'S/490 - 540';
+        document.getElementById("price_modubrazo").innerHTML = 'S/480 - 530';
      }
     
     if("calidad media" == select_detalles_modubrazo.value){
-     document.getElementById("price_modubrazo").innerHTML = 'S/490';
+     document.getElementById("price_modubrazo").innerHTML = 'S/480';
     }
 
     if("calidad media" == select_detalles_modubrazo.value){
@@ -32,7 +32,7 @@ function modu_brazo(){
     }
 
     if("calidad alta" == select_detalles_modubrazo.value){
-        document.getElementById("price_modubrazo").innerHTML = 'S/540';
+        document.getElementById("price_modubrazo").innerHTML = 'S/530';
     }
     
     if("calidad alta" == select_detalles_modubrazo.value){
@@ -71,11 +71,11 @@ function modular_page(){
     var detalles_modulares = document.getElementById("detalles_modulares");
     console.log(detalles_modulares.value);
     if("calidad media" == detalles_modulares.value){
-     document.getElementById("price_modular").innerHTML = 'S/400';
+     document.getElementById("price_modular").innerHTML = 'S/380';
     }
 
     if("calidad media" == detalles_modulares.value){
-        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Media.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas.<br></span>' ;
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Normal.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas.<br></span>' ;
     }
 
     if("calidad alta" == detalles_modulares.value){
@@ -87,7 +87,7 @@ function modular_page(){
     }
 
     if("" == detalles_modulares.value){
-       document.getElementById("price_modular").innerHTML = 'S/400 - 450';
+       document.getElementById("price_modular").innerHTML = 'S/380 - 450';
     }
 
     if("" == detalles_modulares.value){
@@ -95,7 +95,7 @@ function modular_page(){
     }
 
     if("calidad media2" == detalles_modulares.value){
-        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Media.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas.<br></span>' ;
+        document.getElementById("modular_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Normal.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas.<br></span>' ;
     }
     
     if("calidad alta2" == detalles_modulares.value){
@@ -107,15 +107,15 @@ function modular_page(){
     }
 
     if("." == detalles_modulares.value){
-        document.getElementById("price_modulardiseño").innerHTML = 'S/410 - 460';
+        document.getElementById("price_modulardiseño").innerHTML = 'S/400 - 450';
        }
     
     if("calidad media2" == detalles_modulares.value){
-        document.getElementById("price_modulardiseño").innerHTML = 'S/410';
+        document.getElementById("price_modulardiseño").innerHTML = 'S/400';
        }
     
     if("calidad alta2" == detalles_modulares.value){
-        document.getElementById("price_modulardiseño").innerHTML = 'S/460';
+        document.getElementById("price_modulardiseño").innerHTML = 'S/450';
        }
 
        if("calidad mediacuero" == detalles_modulares.value){
