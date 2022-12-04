@@ -14,8 +14,10 @@ body {
 
 h1 {
     font-size: 50px;
-    line-height: 64px;
+    line-height: 110px;
     color: #222;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 h2 {
@@ -37,7 +39,7 @@ h6 {
 p {
     font-size: 16px;
     color: #465b52;
-    margin: 15px 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 .section-p1 {
@@ -158,12 +160,13 @@ button.normal a {
     padding: 0 80px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
 #hero h4 {
     padding-bottom: 15px;
+    font-weight: 800;
 }
 
 #hero h1 {
@@ -171,9 +174,10 @@ button.normal a {
 }
 
 #hero p {
-    font-size: 30px;
+    font-size: 31px;
     font-weight: 700;
     color: #222;
+    text-align: center;
 }
 
 #hero button {
@@ -675,7 +679,7 @@ button.normal a {
 		background-image: url("img/products/moducamaimg/1.jpg");
 	}
 	25%, 45%{
-		background-image: url("img/products/moducamaimg/6.jpg");
+		background-image: url("img/products/moducamaimg/100.jpg");
 	}
 	50%, 70%{
 		background-image: url("img/products/moducamaimg/9.jpg");
@@ -1255,8 +1259,21 @@ button.normal a {
         font-size: 19px;
     }
 }
-
+@media (max-width: 540px) {
+    h1{
+        line-height: 60px;
+    }
+    #banner2 {
+        flex-direction: column;
+    }
+    #banner2 .banner-box {
+        width: 100%;
+        height: 35vh;
+}
 @media (max-width: 477px) {
+    p {
+        margin: 20px 0 50px 0;
+    }
     .section-p1 {
         padding: 25px;            
     }
@@ -1271,13 +1288,16 @@ button.normal a {
     }
     h1 {
         font-size: 38px;
+        line-height: 50px;
+        letter-spacing: 2px;
     }
     h2 {
         font-size: 32px;
     }
     #hero {
         padding: 0 20px;
-        background-position: 55%;
+        background-position: 59%;
+        text-align: center;
     }
     #feature {
         justify-content: space-between;
@@ -1521,7 +1541,20 @@ button.normal a {
         color: #fff;
         font-size: 22px;
     }
-
-
-
+}
+@media (max-width: 477px) {
+    #feature .fe-box {
+        width: 166px;
+    }
+}
+@media (max-width: 375px){
+    #feature .fe-box {
+        width: 154px;
+    }
+}
+@media (max-width: 360px) {
+    .section-p1 {
+        padding: 15px;
+    }
+}
 }

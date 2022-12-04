@@ -14,6 +14,20 @@ if (close) {
     })
 }
 
+/* Modu_Cama */
+function mode_cama(){
+    var select_detalles_modecama = document.getElementById("select_detalles_modecama");
+    console.log(select_detalles_modecama.value);
+
+    if("" == select_detalles_modecama.value){
+        document.getElementById("mode_camacalidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
+    }
+
+    if("calidad alta" == select_detalles_modecama.value){
+        document.getElementById("mode_camacalidad").innerHTML = '<span>*Este producto no incluye mesa de centro* <br>Calidad: Alta.<br>Espuma: Zebra.<br>Incluye: 6 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas o Madera.<br></span>' ;
+    }
+}
+
 /* Modu_Brazo */
 function modu_brazo(){
     var select_detalles_modubrazo = document.getElementById("select_detalles_modubrazo");
@@ -40,7 +54,7 @@ function modu_brazo(){
     }
 
     if("" == select_detalles_modubrazo.value){
-        document.getElementById("modu_brazo_calidad").innerHTML = '<span>Por Favor Seleccione Una Calidad.</span>' ;
+        document.getElementById("modu_brazo_calidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
     }
 
     if("." == select_detalles_modubrazo.value){
@@ -62,8 +76,6 @@ function modu_brazo(){
     if("calidad altacondiseño" == select_detalles_modubrazo.value){
         document.getElementById("modu_brazo_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Chromadas.<br></span>' ;
     }
-
-
 }
 
 /* Modular */

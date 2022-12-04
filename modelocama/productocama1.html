@@ -69,12 +69,12 @@
             </div>
 
             <div class="single-pro-datails">
-                <h6>Inicio / Modelo-Cama</h6>
+                <h6>Inicio / Modelo / Cama</h6>
                 <h4>Modelo Cama Ivory</h4>
-                <h2>S/1300</h2>
-                <select>
-                    <option>Seleccionar calidad</option>
-                    <option>Alta calidad</option>
+                <h2 id="price_modecama">S/1100</h2>
+                <select id="select_detalles_modecama" onchange="mode_cama('');">
+                    <option value="">Seleccionar calidad</option>
+                    <option value="calidad alta">Calidad Alta</option>
                 </select>
                 <select>
                     <option>Seleccionar color</option>
@@ -83,6 +83,7 @@
                 <input type="number" value="1">
                 <button class="normal"><a href="https://wa.me/51941469852?text=Me%20interesa%20adquirir%20unos%20muebles Cama Ivory.">Agregar al carrito/comprar</a></button>
                 <h4>Detalles del producto</h4>
+                <span id="mode_camacalidad">*Por Favor Seleccione Una Calidad*</span>
                 <h4>Medidas</h4>
                 <span>Ancho sofá 3 cuerpos (cm):207 cm.
                 Alto sofá 3 cuerpos (cm):110 cm.
