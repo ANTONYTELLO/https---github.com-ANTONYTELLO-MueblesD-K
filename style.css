@@ -815,7 +815,7 @@ button.normal a {
 }
 @keyframes mode-mueblesrex {
 	0%, 20%{
-		background-image: url("img/products/modureximg/1.jpg");
+		background-image: url("img/products/modureximg/100.jpg");
 	}
 	25%, 45%{
 		background-image: url("img/products/modureximg/2.jpg");
@@ -824,7 +824,7 @@ button.normal a {
 		background-image: url("img/products/modureximg/22.jpg");
 	}
 	75%, 100%{
-		background-image: url("img/products/modureximg/3.jpg");
+		background-image: url("img/products/modureximg/1.jpg");
 	}
 }
 .mode-mueblesrex .info{
@@ -959,7 +959,7 @@ button.normal a {
 		background-image: url("img/products/modubrazoimg/900.jpg");
 	}
 	50%, 70%{
-		background-image: url("img/products/modubrazoimg/501.jpg");
+		background-image: url("img/products/modubrazoimg/507.jpg");
 	}
 	75%, 100%{
 		background-image: url("img/products/modubrazoimg/107.jpg");
@@ -1275,7 +1275,7 @@ button.normal a {
         margin: 20px 0 50px 0;
     }
     .section-p1 {
-        padding: 25px;            
+        padding: 10px;            
     }
     .section-p11 {
         padding: 10px;            
@@ -1308,6 +1308,9 @@ button.normal a {
     }
     #feature .fe-box h6 {
         font-size: 15px;
+    }
+    #product1 .pro-container {
+        padding-top: 10px;
     }
     #product1 .pro img {
         width: 100%;
@@ -1542,11 +1545,7 @@ button.normal a {
         font-size: 22px;
     }
 }
-@media (max-width: 477px) {
-    #feature .fe-box {
-        width: 166px;
-    }
-}
+
 @media (max-width: 375px){
     #feature .fe-box {
         width: 154px;

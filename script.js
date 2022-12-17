@@ -203,8 +203,19 @@ function modular_vintage(){
     if("" == select_detalles_moduvintage.value){
         document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
     }
+}
 
-    if("." == select_detalles_moduvintage.value){
-        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
+
+/* Mode_Rex */
+function mode_rex(){
+    var select_detalles_moderex = document.getElementById("select_detalles_moderex");
+    console.log(select_detalles_moderex.value);
+
+    if("" == select_detalles_moderex.value){
+        document.getElementById("mode_rex_calidad").innerHTML = '<span>*Por Favor Seleccione Una Calidad*</span>' ;
+    }
+
+    if("calidad normal" == select_detalles_moderex.value){
+        document.getElementById("mode_rex_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Normal.<br>Espuma: Zebra.<br>Incluye: 5 Cojines Decorativos.<br>Material: Tela Con Jacquar.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Chromadas o Madera.<br></span>' ;
     }
 }
