@@ -531,6 +531,7 @@ button.normal a {
 #prodetails .single-pro-image {
     width: 50%;
     margin-right: 50px;
+    padding-top: 60px;
 }
 
 .small-img-group {
@@ -597,7 +598,7 @@ button.normal a {
 .mode-muebles {
 	width: 100%;
 	height: 90vh;
-	animation: mode-muebles 15s infinite linear alternate;
+	animation: mode-muebles 20s infinite linear;
 	background-size: 100% 100%;
 	position: relative;
 	display: flex;
@@ -605,18 +606,30 @@ button.normal a {
 	align-items: center;
 }
 @keyframes mode-muebles {
-	0%, 25%{
+	0%{
 		background-image: url("img/bannermodelos/111.jpg");
 	}
-	26%, 50%{
-		background-image: url("img/bannermodelos/222.jpg");
+	25%{
+		background-image: url("img/bannermodelos/111.jpg");
 	}
-	51%, 75%{
+    26%{
+        background-image: url("img/bannermodelos/222.jpg");
+    }
+    50%{
+        background-image: url("img/bannermodelos/222.jpg");
+    }
+    51%{
+        background-image: url("img/bannermodelos/333.jpg");
+    }
+	75%{
 		background-image: url("img/bannermodelos/333.jpg");
 	}
-	76%, 100%{
+	76%{
 		background-image: url("img/bannermodelos/444.jpg");
 	}
+    100%{
+        background-image: url("img/bannermodelos/444.jpg");
+    }
 }
 .capa{
 	width: 100%;
@@ -637,10 +650,6 @@ button.normal a {
 	font-size: 79px;
 	margin-bottom: 45px;
 	letter-spacing: 3px;
-}
-.mode-mueblesmodular .info h2 {
-    color: white;
-    font-size: 45px;
 }
 .mode-muebles .info p{
 	color: #fff;
@@ -1019,51 +1028,6 @@ button.normal a {
 	margin-bottom: 30px;
 }
 
-/* Modelos Mueblesmodular */
-
-.mode-mueblesmodular {
-	width: 100%;
-	height: 90vh;
-	animation: mode-mueblesmodular 15s infinite linear alternate;
-	background-size: 100% 100%;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-@keyframes mode-mueblesmodular {
-	0%, 25%{
-		background-image: url("img/products/moduimg/207.jpg");
-	}
-	26%, 50%{
-		background-image: url("img/products/moduimg/1402.jpg");
-	}
-	51%, 75%{
-		background-image: url("img/products/moduimg/501.jpg");
-	}
-	76%, 100%{
-		background-image: url("img/products/moduimg/1606.jpg");
-	}
-}
-.mode-mueblesmodular .info{
-	z-index: 1;
-	width: 100%;
-	max-width: 700px;
-	text-align: center;
-}
-.mode-mueblesmodular .info h1{
-	color: #fff;
-	font-size: 65px;
-	margin-bottom: 40px;
-	letter-spacing: 1px;
-    line-height: 90px;
-}
-.mode-mueblesmodular .info p{
-	color: #c7c7c7;
-    font-size: 25px;
-	line-height: 1.7;
-	margin-bottom: 30px;
-}
 
 /* Start Media Query */
 
@@ -1091,7 +1055,6 @@ button.normal a {
     #banner2 .banner-box {
     min-width: 0%;
     }
-
 }
 
 @media (max-width: 1024px) {
@@ -1181,9 +1144,8 @@ button.normal a {
     #product1 .pro {
         min-width: 380px;
     }
-
-
 }
+
 @media (max-width: 799px) {
     .section-p1 {
         padding: 0px 20px;            
@@ -1293,6 +1255,7 @@ button.normal a {
         font-size: 19px;
     }
 }
+
 @media (max-width: 540px) {
     h1{
         line-height: 60px;
@@ -1303,7 +1266,9 @@ button.normal a {
     #banner2 .banner-box {
         width: 100%;
         height: 35vh;
+    }
 }
+
 @media (max-width: 477px) {
     p {
         margin: 20px 0 50px 0;
@@ -1413,10 +1378,10 @@ button.normal a {
     #prodetails .single-pro-image {
         width: 100%;
         margin-right: 0px;
+        padding-top: 10px;
     }
     #prodetails .single-pro-datails {
         width: 100%;
-        padding-top: 20px;
     }
     #prodetails .single-pro-datails h4 {
         padding: 30px 0 10px 0;
@@ -1425,6 +1390,7 @@ button.normal a {
         font-size: 20px;
         line-height: 31px;
     }
+
 
     /* Modelos de Muebles */
 
@@ -1568,37 +1534,15 @@ button.normal a {
         color: #fff;
         font-size: 22px;
     }
-
-    /* Modelos Mueblesmodular */
-    
-    .mode-mueblesmodular {
-        height: 45vh;
-    }
-
-    .mode-mueblesmodular .info h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-
-    .mode-mueblesmodular .info h2 {
-        color: white;
-        font-size: 25px;
-    }
-
-    .mode-mueblesmodular .info p{
-        color: #fff;
-        font-size: 22px;
-    }
 }
-
 @media (max-width: 375px){
     #feature .fe-box {
         width: 154px;
     }
 }
+
 @media (max-width: 360px) {
     .section-p1 {
         padding: 15px;
     }
-}
 }
