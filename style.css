@@ -142,7 +142,7 @@ button.normal a {
 #navbar li a:hover::after {
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #088178;
     position: absolute;
     bottom: -4px;
@@ -1098,7 +1098,7 @@ button.normal a {
         right: -300px;
         height: 100%;
         width: 300px;
-        background-color: #f3e5ab;
+        background-color: #babdae;;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
         padding: 80px 0 0 10px;
         transition: 0.3s;
@@ -1165,9 +1165,10 @@ button.normal a {
         right: -300px;
         height: 100%;
         width: 300px;
-        background-image: url("img/cojines12.jpeg");
-        background-position: 80%;
-        background-size: cover;
+        background-image: url("img/cojines1.jpeg");
+        background-position: bottom ;
+        background-size: 300px;
+        background-repeat: no-repeat;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
         padding: 80px 0 0 10px;
         transition: 0.3s;
@@ -1178,7 +1179,7 @@ button.normal a {
     }
 
     #navbar li {
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 
     #navbar li a {
