@@ -163,7 +163,7 @@ button.normal a {
 
 #hero {
     background-image: url("img/8722564.jpg");
-    height: 90vh;
+    height: 900px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -1209,7 +1209,7 @@ button.normal a {
     }
 
     #hero {
-        height: 90vh;
+        height: 760px;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
