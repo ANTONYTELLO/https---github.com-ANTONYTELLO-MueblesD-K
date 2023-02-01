@@ -1,75 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="google-site-verification" content="7m4XXJ7RjwSsmKtGYZGRcs7GQ9vf14P7ntxf9xKCOGg" />
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MUEBLES D&K</title>
     <link rel="icon" href="img/logo.ico">
-    <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/estilos.css">
+    <link rel="stylesheet" href="style/estilosvista.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
-<body>
-    
-        
-        <section id="header">
-            <a href="index.html"><img src="img/sofalogo82.png" height ="100" width="150" class="logo" alt=""></a>
-            <div>
-                <ul id="navbar">
-                    <li><a class="active" href="index.html">Inicio</a></li>
-                    <li><a href="shop.html">Tienda</a> </li>
-                    <li><a href="modelodemuebles.html">Modelo de Muebles</a></li>
-                    <li><a href="about.html">Complementos</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
-                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-                </ul>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo nuevo4.png" width="170" alt=""></a>
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a class="active" href="index.html">Inicio</a>
+                    <a href="shop.html">Tienda</a>
+                    <a href="modelodemuebles.html">Modelo de Muebles</a>
+                    <a href="#">Complementos</a>
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
             </div>
-            <div id="mobile">
-                <i id="bar" class="fa-solid fa-outdent"></i>
-            </div>
-        </section>
-    
-        <header id="hero">
-            <h4>2023</h4>
-            <h2>Bienvenidos!</h2>
-            <h1>A la tienda de Muebles D&K</h1>
-            <p>Gran calidad y variedad de modelos!</p>
-             <a href="shop.html"><button>COMPRAR</button></a>
-        </header>
-    
-        <section id="feature" class="section-p1">
-            <div class="fe-box">
-                <img src="img/delivery.png" alt="">
-                <h6>Delivery ha domicilio (Contraentrega)</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/tarjeta de credito.png" alt="">
-                <h6>Aceptamos todas las tarjetas</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/oferta.png" alt="">
-                <h6>Promociones unicas en productos</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/ahorro.png" alt="">
-                <h6>Ahorra dinero en tus compras</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/Call center.png" alt="">
-                <h6>Atención al cliente via online</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/diseño.png" alt="">
-                <h6>Nuevos modelos y colores</h6>
-            </div>
-        </section>
-    
-        <section id="product1" class="section-p11">
-            <h2>Modelos de muebles</h2>
-            <p>Diseño 2022</p>
+        </nav>
+        <div class="textos">
+            <h1>Muebles D&K</h1>
+            <h2>Tienda de Muebles</h2>
+            <a href="#"><button>COMPRAR</button></a>
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor" id="equipo">
+            <h3>Nuestros Modelos</h3>
+            <p class="after1">Conoce diseños y gran variedad de colores</p>
+            <section id="product1" class="section-p11">
             <div class="pro-container">
                 <div class="pro" onclick="window.location.href='modelo321/modelo321.html';">
                     <img src="img/products/modu321img/gala/22.jpg" alt="">
@@ -77,7 +52,6 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Gala 321</h5>
                     </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </div>
                 <div class="pro" onclick="window.location.href='modelocama/modelocama.html';">
                     <img src="img/products/moducamaimg/1.jpg" alt="">
@@ -85,7 +59,6 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Cama</h5>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro" onclick="window.location.href='modelodual/modelodual.html';">
                     <img src="img/products/modudualimg/200.jpg" alt="">
@@ -93,7 +66,6 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Dual</h5>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/moduburbuimg/22.jpg" alt="">
@@ -101,7 +73,6 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Burbuja</h5>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro" onclick="window.location.href='modelorex/modelorex.html';">
                     <img src="img/products/modureximg/2.jpg" alt="">
@@ -109,7 +80,6 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Rex</h5>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro" onclick="window.location.href='modeloshalom/modeloshalom.html';">
                     <img src="img/products/modusheimg/702.jpg" alt="">
@@ -117,237 +87,161 @@
                         <span>MueblesD&K</span>
                         <h5>Modelo Shalom</h5>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
                 </div>
-                <div class="pro" onclick="window.location.href='modelomoduconbrazo/modelomodubrazo.html';">
-                    <img src="img/products/modubrazoimg/107.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Modelo Modular Con Brazo</h5>
+            </section>
+        </section>
+        <section class="about" id="servicio">
+            <div class="contenedor">
+                <h3>Nuestros servicios</h3>
+                <p class="after">Siempre mejorando para ti</p>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <img src="img/delivery.png" alt="">
+                        <h4>Delivery ha domicilio (Contraentrega)</h4>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro" onclick="window.location.href='modelomodular/modelomodular.html';">
-                    <img src="img/products/moduimg/2301.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Modelo Modular</h5>
+                    <div class="caja-servicios">
+                        <img src="img/tarjeta de credito.png" alt="">
+                        <h4>Aceptamos todas las tarjetas</h4>
                     </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                    <div class="caja-servicios">
+                        <img src="img/call center.png" alt="">
+                        <h4>Atención al cliente online</h4>
+                    </div>
                 </div>
             </div>
         </section>
-    
-        <section id="banner" class="section-m1"> 
-            <img src="img/banner2.jpg" alt="">
-        </section>
-    
-        <section id="product1" class="section-p11">
-            <h2>Nuevos Productos</h2>
-            <p>Summer Collection New Morder Design</p>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="img/gala.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/camita ivori2.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/rex blanco con negro.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/dual marron.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/shelom plata.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/negro3.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/gala.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="img/gala.jpg" alt="">
-                    <div class="des">
-                        <span>MueblesD&K</span>
-                        <h5>Muebles Modelo Gala 321</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>S/1400</h4>
-                    </div>
-                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
-                </div>
-            </div>
-        </section>
-    
-        <section id="probanner" class="section-p111">
-            <div class="banner-box">
-                <h4>Puff Vintage</h4>
-                <h2>Variedad de estilos y colores</h2>
-                <button class="white">Saber más</button>
-            </div>
-            <div class="banner-box banner-box2">
-                <h4>Banqueta</h4>
-                <h2>Variedad de estilos y colores</h2>
-                <button class="white">Saber más</button>
-            </div>
-        </section>
-    
-        <section id="banner2">
-            <div class="banner-box">
-                <h2>Mesa de centro</h2>
-                <h3>Variedad de diseños</h3>    
-                <button class="white">Conocer</button>
-            </div>
-            <div class="banner-box banner-box2">
-                <h2>Cojines decorativos</h2>
-                <h3>Variedad de diseños,tamaños y colores</h3>    
-                <button class="white">Conocer</button>
-            </div>
-            <div class="banner-box banner-box3">
-                <h2>Puff Cubo</h2>
-                <h3>Variedad de diseños y colores</h3>    
-                <button class="white">Conocer</button>
-            </div>
-        </section>
-    
-        <section class="social">
-            <p>Síguenos en nuestras redes sociales:</p>
-            <div class="links">
-                <a href="https://www.facebook.com/MuebleDyK" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/muebles_dk_/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://wa.me/51941469852?text=Me%20interesa%20adquirir%20unos%20muebles%20de%20sala." target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </div>
-        </section>
-
-        <div class="footer-links">
-            <div class="footer-container">
+        <section class="work contenedor" id="trabajo">
+            <h3>Complementos</h3>
+            <p class="after1">Hacemos de algo simple algo extraordinario</p>
+            <div class="botones-work">
                 <ul>
-                        <h3>Nos encontramos en:</h3>
-                        <h3>JR. LOS ARRAYANES MZ. X-1 LT.1-Frente al Samay Hostal(SJL)</h3>
-                </ul>                
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='banquetas'>Banquetas</li>
+                    <li class="filter" data-nombre='mesadecentro'>Mesa de centro</li>
+                    <li class="filter" data-nombre='puff'>Puff</li>
+                    <li class="filter" data-nombre='cojines'>Cojines decorativos</li>
+                </ul>
             </div>
-        
-            <div class="footer-mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4542304622873!2d-77.00800518518771!3d-12.012218391490281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5ba65d32163%3A0x6340574a3481dbb1!2sMuebles%20D%26K!5e0!3m2!1ses-419!2spe!4v1658628340655!5m2!1ses-419!2spe" width="90%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="galeria-work">
+                <div class="cont-work banquetas">
+                    <div class="img-work">
+                       <a href="https://www.facebook.com/MuebleDyK"><img src="img/banqueta88.jpg" alt=""></a>
+                    </div>
+                    <div class="textos-work">
+                        <h4>Banquetas</h4>
+                    </div>
+                </div>
+                <div class="cont-work banquetas">
+                    <div class="img-work">
+                        <img src="img/banqueta88.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Banquetas</h4>
+                    </div>
+                </div>
+                <div class="cont-work banquetas">
+                    <div class="img-work">
+                        <img src="img/banqueta88.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Banquetas</h4>
+                    </div>
+                </div>
+                <div class="cont-work mesadecentro">
+                    <div class="img-work">
+                        <img src="img/mesa.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Mesa de centro</h4>
+                    </div>
+                </div>
+                <div class="cont-work mesadecentro">
+                    <div class="img-work">
+                        <img src="img/mesa2.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Mesa de centro</h4>
+                    </div>
+                </div>
+                <div class="cont-work mesadecentro">
+                    <div class="img-work">
+                        <img src="img/mesa3.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Mesa de centro</h4>
+                    </div>
+                </div>
+                <div class="cont-work puff">
+                    <div class="img-work">
+                        <img src="img/puff.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Puff</h4>
+                    </div>
+                </div>
+                <div class="cont-work puff">
+                    <div class="img-work">
+                        <img src="img/puffcuadrado3.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Puff</h4>
+                    </div>
+                </div>
+                <div class="cont-work puff">
+                    <div class="img-work">
+                        <img src="img/puff2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Puff</h4>
+                    </div>
+                </div>
+                <div class="cont-work cojines">
+                    <div class="img-work">
+                        <img src="img/cojines.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Cojines Decorativos</h4>
+                    </div>
+                </div>
+                <div class="cont-work cojines">
+                    <div class="img-work">
+                        <img src="img/cojines.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Cojines Decorativos</h4>
+                    </div>
+                </div>
+                <div class="cont-work cojines">
+                    <div class="img-work">
+                        <img src="img/cojines.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Cojines Decorativos</h4>
+                    </div>
+                </div>
             </div>
-    
-            <div class="footer-copy">
-            <h3> &copy; Muebles D&K Copyright</h3>
-            </div>
+        </section>
+    </main>
+    <footer id="page-footer">
+        <div class="marca-logo">
+            <img src="img/logo nuevo4.png" alt="">
         </div>
+        <div class="iconos">
+            <a href="https://www.facebook.com/MuebleDyK" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/muebles_dk_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/51941469852?text=Me%20interesa%20adquirir%20unos%20muebles%20de%20sala." target="_blank">
+             <i class="fab fa-whatsapp"></i>
+         </a>
+        </div>
+        <p>La pasión e innovación es lo que nos distingue del resto</p>
+    </div>
+    </footer>
 
-        <script src="script.js"></script>
-        <!--Scroll Reveal-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-        <!--reveal-->
-        <script src="scrollreveal/scrollconfi.js"></script>
-
-
-
-
+    <div class="footer-copy2">
+        <h3> &copy; Muebles D&K Copyright</h3>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
 </body>
 </html>

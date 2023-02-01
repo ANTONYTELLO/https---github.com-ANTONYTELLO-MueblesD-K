@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'open sans';
 }
 
 body {
@@ -204,7 +204,7 @@ button.normal a {
 #feature {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -250,8 +250,7 @@ button.normal a {
 }
 
 #product1 .pro {
-    width: 23%;
-    min-width: 250px;
+    width: 32.4%;
     padding: 5px 5px;
     border: 3px solid #cce7d0;
     border-radius: 25px;
@@ -268,7 +267,7 @@ button.normal a {
 
 #product1 .pro img {
     width: 100%;
-    height: 250px;
+    height: 350px;
     border-radius: 20px;
 }
 
@@ -1028,66 +1027,19 @@ button.normal a {
 
 
 /* Start Media Query */
-
-@media (max-width: 1360px) {
+@media (max-width: 1630px) {
     #product1 .pro {
-        min-width: 32%;
+        min-width: 32.6%;
+    }
+    #product1 .pro img {
+        height: 310px;
     }
     #banner2 .banner-box {
         min-width: 30%;
     }
 }
-@media (max-width: 1280px) {
-    .section-p11 {
-        padding: 20px 20px;
-    }
-    #product1 .pro {
-        min-width: 300px;
-    }
-    #probanner {
-        flex-wrap: wrap;
-    }
-    #probanner .banner-box {
-        min-width: 600px;
-    }
-    #banner2 .banner-box {
-    min-width: 0%;
-    }
-}
 
-@media (max-width: 1024px) {
-    #feature {
-        justify-content: space-around;
-    }
-    .section-p1 {
-        padding: 10px 20px;
-    }
-    .section-p111 {
-        padding: 0px 20px;
-    }
-    #product1 .pro {
-        min-width: 49%;
-    }
-    #banner2 {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        padding: 10px 20px;
-    }
-    #banner2 .banner-box {
-        height: 40vh;
-        justify-content: space-evenly;
-
-    }
-    #probanner .banner-box {
-        min-width: 485px;
-        justify-content: space-evenly;
-    }
-}
-@media (max-width: 899px) {
-    .section-p11 {
-        padding: 40px 20px;
-    }
+@media (max-width: 1500px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -1100,7 +1052,7 @@ button.normal a {
         width: 300px;
         background-color: #babdae;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
-        padding: 80px 0 0 10px;
+        padding: 90px 0 0 10px;
         transition: 0.3s;
     }
     #navbar.active {
@@ -1128,9 +1080,119 @@ button.normal a {
         color: #222;
         font-size: 24px;
     }
-    #lg-bag {
-        display: none;
+    #product1 .pro {
+        min-width: 49%;
     }
+    #product1 .pro img {
+        height: 350px;
+    }
+    #banner2 .banner-box {
+        min-width: 30%;
+    }
+}
+@media (max-width: 1340px) {
+    
+    #feature .fe-box {
+        width: 210px;
+    }
+    .section-p1 {
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .section-p11 {
+        padding: 20px 20px;
+    }
+    #product1 .pro {
+        min-width: 49%;
+    }
+    #probanner {
+        flex-wrap: wrap;
+    }
+    #probanner .banner-box {
+        min-width: 600px;
+    }
+    #banner2 .banner-box {
+    min-width: 0%;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    #feature {
+        justify-content: space-around;
+    }
+    .section-p1 {
+        padding: 0px 20px;
+    }
+    .section-p111 {
+        padding: 0px 20px;
+    }
+    #product1 .pro {
+        min-width: 49%;
+    }
+    #banner2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 10px 20px;
+    }
+    #banner2 .banner-box {
+        height: 40vh;
+        justify-content: space-evenly;
+
+    }
+    #probanner .banner-box {
+        min-width: 485px;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 899px) {
+    .section-p11 {
+        padding: 30px 10px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100%;
+        width: 300px;
+        background-color: #babdae;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 90px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
     #probanner .banner-box {
         min-width: 100%;
         height: 50vh;
@@ -1140,7 +1202,18 @@ button.normal a {
         flex-direction: column;
     }
     #product1 .pro {
-        min-width: 380px;
+        min-width: 48.9%;
+    }
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #prodetails .single-pro-datails {
+        width: 100%;
+        padding-top: 30px;
     }
 }
 
@@ -1201,12 +1274,7 @@ button.normal a {
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
-    #feature {
-        justify-content: center;
-    }
-    #feature .fe-box {
-        margin: 15px 15px;
-    }
+
     #product1 .pro {
         min-width: 100%;
     }
@@ -1293,7 +1361,7 @@ button.normal a {
         text-align: center;
     }
     #feature {
-        justify-content: space-between;
+        justify-content: space-around;
     }
     #feature .fe-box {
         width: 155px;

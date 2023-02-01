@@ -32,10 +32,6 @@ function mode_cama(){
 function modu_brazo(){
     var select_detalles_modubrazo = document.getElementById("select_detalles_modubrazo");
     console.log(select_detalles_modubrazo.value);
-
-    if("" == select_detalles_modubrazo.value){
-        document.getElementById("price_modubrazo").innerHTML = 'S/480 - 530';
-     }
     
     if("calidad media" == select_detalles_modubrazo.value){
      document.getElementById("price_modubrazo").innerHTML = 'S/480';
