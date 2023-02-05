@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("/img/pegaso.jpg");
+    background-image: url("../img/pegaso.jpg");
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;

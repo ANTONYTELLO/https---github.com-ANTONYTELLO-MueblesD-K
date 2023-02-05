@@ -14,7 +14,7 @@
 </head>
 <body> 
         <section id="header">
-            <a href="index.html"><img src="/img/logo nuevo4.png" height ="100" width="170" class="logo" alt=""></a>
+            <a href="index.html"><img src="img/logo nuevo4.png" height ="100" width="170" class="logo" alt=""></a>
             <div>
                 <ul id="navbar">
                     <li><a href="index.html">Inicio</a></li>
@@ -30,13 +30,13 @@
             </div>
         </section>
 
-        <form name="Muebles D&K correo" netlify>
+        <form action="enviar.php" method="post">
             <h2>CONTACTO</h2>
-            <input type="text" name="Nombre" placeholder="Nombre">
-            <input type="text" name="Correo" placeholder="Correo">
-            <input type="text" name="Telefono" placeholder="Telefono">
-            <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-            <input type="button" value="ENVIAR" id="boton">
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Correo" placeholder="Correo" required>
+            <input type="text" name="Telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+            <input type="submit" value="ENVIAR" id="boton">
         </form>
 
 

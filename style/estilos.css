@@ -186,7 +186,7 @@ nav .enlaces a:hover{
 }
 
 .textos button {
-  background-image: url("/img/button123.png");
+  background-image: url(../img/button123.png);
   background-color: transparent;
   color: #222;
   border: 0;
@@ -363,7 +363,7 @@ nav .enlaces a:hover{
 /* Footer */
 
 #page-footer {
-  background-image: url(/img/footerend4.png);
+  background-image: url(../img/footerend4.png);
   width: 100%;
   height: 60vh;
   background-size: 100% 100%;
