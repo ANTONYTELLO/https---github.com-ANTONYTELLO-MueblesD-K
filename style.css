@@ -127,8 +127,9 @@ button.normal a {
 
 #navbar li a {
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 21px;
+    font-weight: 600;
+    margin-right: 17px;
     color: #000;
     transition: 0.3s ease;
 }
@@ -161,82 +162,6 @@ button.normal a {
 
 /* Home Page */
 
-#hero {
-    background-image: url("img/8722564.jpg");
-    height: 90vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#hero h4 {
-    padding-bottom: 15px;
-    font-weight: 800;
-}
-
-#hero h1 {
-    color: #222;
-}
-
-#hero p {
-    font-size: 31px;
-    font-weight: 700;
-    color: #222;
-    text-align: center;
-}
-
-#hero button {
-    background-image: url("img/button123.png");
-    background-color: transparent;
-    color: #222;
-    border: 0;
-    padding: 15px 50px 14px 60px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-#feature {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-#feature .fe-box {
-    width: 210px;
-    text-align: center;
-    padding: 25px 15px;
-    background: #f3e5ab;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #9b806d;
-    border-radius: 4px;
-    margin: 15px 0;
-}
-
-#feature .fe-box:hover {
-    box-shadow: 10px 10px 54px #343d19;
-}
-
-#feature .fe-box img {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#feature .fe-box h6 {
-    font-size: 16px;
-    display: inline-block;
-    padding: 9px 8px 6px 8px;
-    line-height: 1;
-    border-radius: 8px;
-    color: #000;
-    background-color: #babdae;
-}
 
 #product1 {
     text-align: center;
@@ -312,105 +237,6 @@ button.normal a {
     right: 10px;
 }
 
-#banner img {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    padding: 0px 0; 
-}
-
-#probanner {
-    display: flex;
-    justify-content: space-between;
-}
-
-#probanner .banner-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("img/puff2.jpg");
-    min-width: 49.5%;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    padding: 30px;
-}
-
-#probanner .banner-box2 {
-    background-image: url("img/banqueta88.jpg");
-}
-
-#probanner h4 {
-    font-size: 50px;
-    font-weight: 300;
-}
-
-#probanner h2 {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-#probanner .banner-box:hover button {
-    background: #F0E68C;
-    border: 1px solid #F0E68C;
-}
-
-#banner2 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px 30px;
-}
-
-#banner2 .banner-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    background-image: url("img/mesadecentro.jpg");
-    min-width: 32%;
-    height: 30vh;
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-}
-
-#banner2 .banner-box2 {
-    background-image: url("img/cojines.jpg");
-}
-
-#banner2 .banner-box3 {
-    background-image: url("img/puffcuadrado3.jpg");
-}
-
-#banner2 h2 {
-    color: #fff;
-    font-weight: 900;
-    font-size: 30px;
-}
-
-#banner2  .banner-box2 h2 ,
-#banner2  .banner-box2 h3 {
-    color: rgb(99, 89, 89);
-}
-
-#banner2  .banner-box3 h2 ,
-#banner2  .banner-box3 h3 {
-    color: #000
-}
-
-#banner2 .banner-box:hover button {
-    background: #F0E68C;
-    border: 1px solid #F0E68C;
-}
-
-#banner2 h3 {
-    color: #fff;
-    font-weight: 800;
-    font-size: 20px;
-}
-
 /* Social */
 .social {
     margin: 40px;
@@ -472,7 +298,7 @@ button.normal a {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 14px;
+    padding: 0px;
 }
 
 #page-header h2 {
@@ -604,28 +430,28 @@ button.normal a {
 }
 @keyframes mode-muebles {
 	0%{
-		background-image: url("img/bannermodelos/111.jpg");
+		background-image: url("img/bannermodelos/banner1.webp");
 	}
 	25%{
-		background-image: url("img/bannermodelos/111.jpg");
+		background-image: url("img/bannermodelos/banner1.webp");
 	}
     26%{
-        background-image: url("img/bannermodelos/222.jpg");
+        background-image: url("img/bannermodelos/banner2.webp");
     }
     50%{
-        background-image: url("img/bannermodelos/222.jpg");
+        background-image: url("img/bannermodelos/banner2.webp");
     }
     51%{
-        background-image: url("img/bannermodelos/333.jpg");
+        background-image: url("img/bannermodelos/banner3.webp");
     }
 	75%{
-		background-image: url("img/bannermodelos/333.jpg");
+		background-image: url("img/bannermodelos/banner3.webp");
 	}
 	76%{
-		background-image: url("img/bannermodelos/444.jpg");
+		background-image: url("img/bannermodelos/banner4.webp");
 	}
     100%{
-        background-image: url("img/bannermodelos/444.jpg");
+        background-image: url("img/bannermodelos/banner4.webp");
     }
 }
 .capa{
@@ -932,6 +758,65 @@ button.normal a {
 	margin-bottom: 30px;
 }
 
+/* Modelos Muebleslondres */
+
+.mode-muebleslondres {
+	width: 100%;
+	height: 90vh;
+	animation: mode-muebleslondres 20s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes mode-muebleslondres {
+	0%{
+		background-image: url("img/products/modulondres/10.jpg");
+	}
+	25%{
+		background-image: url("img/products/modulondres/10.jpg");
+	}
+    26%{
+        background-image: url("img/products/modulondres/10.jpg");
+    }
+    50%{
+        background-image: url("img/products/modulondres/10.jpg");
+    }
+    51%{
+        background-image: url("img/products/modulondres/10.jpg");
+    }
+	75%{
+		background-image: url("img/products/modulondres/10.jpg");
+	}
+	76%{
+		background-image: url("img/products/modulondres/10.jpg");
+	}
+    100%{
+        background-image: url("img/products/modulondres/10.jpg");
+    }
+}
+.mode-muebleslondres .info{
+	z-index: 1;
+	width: 100%;
+	max-width: 850px;
+	text-align: center;
+}
+.mode-muebleslondres .info h1{
+    width: 100%;
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+    line-height: 90px;
+}
+.mode-muebleslondres .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
 /* Modelos Mueblesmoduvintage */
 
 .mode-mueblesmoduvintage {
@@ -1034,18 +919,27 @@ button.normal a {
     #product1 .pro img {
         height: 310px;
     }
-    #banner2 .banner-box {
-        min-width: 30%;
-    }
 }
 
 @media (max-width: 1500px) {
+    #product1 .pro {
+        min-width: 49%;
+    }
+    #product1 .pro img {
+        height: 350px;
+    }
+}
+@media (max-width: 1340px) {
     #navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
+        background-image: url("img/cojines1.jpeg");
+        background-position: bottom ;
+        background-size: 100%;
+        background-repeat: no-repeat;
         top: 0;
         right: -300px;
         height: 100%;
@@ -1079,21 +973,6 @@ button.normal a {
         left: 30px;
         color: #222;
         font-size: 24px;
-    }
-    #product1 .pro {
-        min-width: 49%;
-    }
-    #product1 .pro img {
-        height: 350px;
-    }
-    #banner2 .banner-box {
-        min-width: 30%;
-    }
-}
-@media (max-width: 1340px) {
-    
-    #feature .fe-box {
-        width: 210px;
     }
     .section-p1 {
         padding: 0px 100px;
@@ -1107,22 +986,9 @@ button.normal a {
     #product1 .pro {
         min-width: 49%;
     }
-    #probanner {
-        flex-wrap: wrap;
-    }
-    #probanner .banner-box {
-        min-width: 600px;
-    }
-    #banner2 .banner-box {
-    min-width: 0%;
-    }
 }
 
-@media (max-width: 1024px) {
-    
-    #feature {
-        justify-content: space-around;
-    }
+@media (max-width: 1024px) {  
     .section-p1 {
         padding: 0px 20px;
     }
@@ -1132,74 +998,10 @@ button.normal a {
     #product1 .pro {
         min-width: 49%;
     }
-    #banner2 {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        padding: 10px 20px;
-    }
-    #banner2 .banner-box {
-        height: 40vh;
-        justify-content: space-evenly;
-
-    }
-    #probanner .banner-box {
-        min-width: 485px;
-        justify-content: space-evenly;
-    }
 }
 @media (max-width: 899px) {
     .section-p11 {
         padding: 30px 10px;
-    }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100%;
-        width: 300px;
-        background-color: #babdae;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
-        padding: 90px 0 0 10px;
-        transition: 0.3s;
-    }
-    #navbar.active {
-        right: 0px;
-    }
-
-    #navbar li {
-        margin-bottom: 25px;
-    }
-
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-    #mobile i {
-        color: #1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-    }
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 24px;
-    }
-
-    #probanner .banner-box {
-        min-width: 100%;
-        height: 50vh;
-        padding: 30px;
-    }
-    #banner2 {
-        flex-direction: column;
     }
     #product1 .pro {
         min-width: 48.9%;
@@ -1228,17 +1030,6 @@ button.normal a {
         padding: 0 20px;            
     }
 
-    #navbar {
-        background-image: url("img/cojines1.jpeg");
-        background-position: bottom ;
-        background-size: 300px;
-        background-repeat: no-repeat;
-    }
-
-    #navbar.active {
-        right: 0px;
-    }
-
     #navbar li {
         margin-bottom: 30px;
     }
@@ -1247,26 +1038,10 @@ button.normal a {
         font-size: 25px;
         font-weight: 700;
     }
-
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
     #mobile i {
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
-    }
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 24px;
-    }
-    #lg-bag {
-        display: none;
     }
 
     #hero {
@@ -1305,10 +1080,6 @@ button.normal a {
     }
     /* Tienda Page */
 
-    #page-header h2 {
-        font-size: 100px;
-    }
-    
     #page-header p {
         font-size: 30px;
     }
@@ -1425,7 +1196,7 @@ button.normal a {
     }
 
     #page-header h2 {
-        font-size: 80px;
+        font-size: 50px;
     }
     
     #page-header p {

@@ -142,11 +142,11 @@ function modular_vintage(){
        }
 
     if("calidad normal" == select_detalles_moduvintage.value){
-        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Estandar.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera.<br></span>' ;
+        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Estandar.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Madera(Vintage).<br></span>' ;
     }
 
     if("calidad normal2" == select_detalles_moduvintage.value){
-        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Estandar.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera.<br></span>' ;
+        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Estandar.<br>Espuma: Zebra.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Madera.<br>Patas: Madera(Vintage).<br></span>' ;
     }
 
 
@@ -159,11 +159,11 @@ function modular_vintage(){
     }
     
     if("calidad alta" == select_detalles_moduvintage.value){
-        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera.<br></span>' ;
+        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera(Vintage).<br></span>' ;
     }
 
     if("calidad alta2" == select_detalles_moduvintage.value){
-        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera.<br></span>' ;
+        document.getElementById("modular_vintage_calidad").innerHTML = '<span>*Este producto no incluye mesa de centro ni banqueta* <br>Calidad: Alta.<br>Espuma: Zebra Dunlopillo.<br>Incluye: 4 Cojines Decorativos.<br>Material: Tela.<br>Madera: Cachimbo.<br>Soporte: Noza(Resorte).<br>Patas: Madera(Vintage).<br></span>' ;
     }
 
 }
