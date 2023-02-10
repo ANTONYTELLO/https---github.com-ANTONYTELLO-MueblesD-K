@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("/img/pegaso.jpg");
+    background-image: url("../img/pegaso.jpg");
     background-size: 100vw 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -425,6 +425,15 @@ body::-webkit-scrollbar-thumb {
     .u-wrapper {
         width: 100%;
     }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        background: rgba(0, 0, 0, 0.04);
+        margin-top: 20px;
+    }
+
 
 #header {
     padding: 0px 10px;
