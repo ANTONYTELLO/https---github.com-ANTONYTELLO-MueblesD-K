@@ -133,7 +133,7 @@ nav{
 .contenedor-nav{
   display: flex;
   margin: auto;
-  width: 90%;
+  padding: 0px 30px;
   justify-content: space-between;
   align-items: center;
   height: inherit;
@@ -513,6 +513,11 @@ nav .enlaces a:hover{
   .iconos{
     margin: auto;
   }
+}
+@media (max-width: 480px){
+  .contenedor-nav {
+    padding: 0px 10px;
+}
 }
 
 @media screen and (max-width: 450px){
