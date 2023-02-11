@@ -1131,16 +1131,6 @@ button.normal a {
         background-position: 59%;
         text-align: center;
     }
-    #feature {
-        justify-content: space-around;
-    }
-    #feature .fe-box {
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-    #feature .fe-box h6 {
-        font-size: 15px;
-    }
     #pagination {
         padding: 40px 0px;
     }
@@ -1351,7 +1341,7 @@ button.normal a {
         color: #fff;
         font-size: 22px;
     }
-}
+
 
     /* Modelos de Mueblesmoduvintage */
     
@@ -1383,11 +1373,6 @@ button.normal a {
     .mode-mueblesmodubrazo .info p{
         color: #fff;
         font-size: 22px;
-    }
-
-@media (max-width: 375px){
-    #feature .fe-box {
-        width: 154px;
     }
 }
 

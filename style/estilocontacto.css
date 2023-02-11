@@ -6,12 +6,13 @@
     font-family: 'open sans';
 }
 
-body {
-    background-image: url("../img/pegaso.jpg");
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0;
+header2 {
+  width: 100%;
+  background: url(/img/pegaso.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100vw 100vh;
+  display: flow-root;
 }
 
 :root {
@@ -43,14 +44,6 @@ body {
   .h3 {
     font-size: 48px;
     line-height: 77px;
-  }
-  
-  .social-item + .social-item {
-    margin-left: 1em;
-  }
-  
-  .social-item img {
-    vertical-align: middle;
   }
   
   .btn {
@@ -94,97 +87,12 @@ body {
     vertical-align: middle;
   }
   
-  .hero {
-    margin-block-end: 80px;
-  }
-  
-  
-  .hero-content img{
-    display: block;
-    margin: 0 auto;
-    /* text-align: center; */
-  }
-  
-  
-  .pre-projects-content {
-    text-align: center;
-  }
-  
-  .pre-projects-content p {
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 38px;
-    letter-spacing: 0.5%;
-  }
-  
-  .pre-projects-content p + p {
-    font-weight: bold;
-  }
-  
-  .project {
-    display: grid;
-    /* grid-template-rows: 1fr 1fr; */
-    grid-template-areas: "image" "description";
-  }
-  
-  .project-image {
-    grid-area: image;
-    text-align: center;
-    margin-block-end: 1.5em;
-  }
-  .project-description {
-    grid-area: description;
-  
-  }
-  .project img {
-    max-width: 100%;
-  }
-  
   
   .tag span {
     padding: .5em;
     background: var(--black);
     color: var(--primary);
     box-shadow: -4px 4px 0 white;
-  }
-  
-  .project-copy {
-    line-height: 25px;
-    letter-spacing: .5%;
-    margin-block-start: 2em;
-  }
-  .project-cta {
-    margin-block-start: 1.5em;
-  }
-  .project-cta button + button {
-    margin-block-start: 1em;
-  }
-  
-  
-  .testimony {
-    padding: 1.5em;
-    border-radius: 1.5em;
-    backdrop-filter: blur(39.7657px);
-    background: rgba(255,255,255,.2);
-    border: 3.98px solid rgba(255,255,255,.4);
-  }
-  .testimony-image {
-    text-align: center;
-  }
-  .testimony-copy {
-    line-height: 26px;
-    font-weight: bold;
-  }
-  
-  .testimony-title {
-    font-size: 12px;
-    color: rgba(0,0,0,.4);
-    text-transform: uppercase;
-    line-height: 20px;
-  }
-  
-  .project, .testimony {
-    margin-block: 2.5em;
   }
   
   .form {
@@ -228,13 +136,13 @@ body {
   
   .contact {
     margin-block-end: 1em;
-    padding: 50px 10px 0px;
+    padding: 200px 10px 0;
   }
 
 
 /* Social */
 .social {
-    margin: 50px;
+    margin: 30px;
 }
 
 .social p {
@@ -300,127 +208,15 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
 
-/* Header Start */
-
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
-    background-color: #babdae;
-    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f0f1d9' fill-opacity='0.8' fill-rule='evenodd'/%3E%3C/svg%3E");
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
-#navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#navbar li {
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-}
-
-#navbar li a {
-    text-decoration: none;
-    font-size: 21px;
-    font-weight: 600;
-    margin-right: 17px;
-    color: #000;
-    transition: 0.3s ease;
-}
-
-#navbar li a:hover,
-#navbar li a.active {
-    color: #088178;
-}
-
-#navbar li a.active::after,
-#navbar li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 3px;
-    background: #088178;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
-}
-
-#mobile {
-    display: none;
-    align-items: center;
-}
-
-#close {
-    display: none;
-}
-
-@media (max-width: 1340px) {
-        #navbar {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: flex-start;
-            position: fixed;
-            background-image: url("/img/cojines1.jpeg");
-            background-position: bottom ;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            top: 0;
-            right: -300px;
-            height: 100%;
-            width: 300px;
-            background-color: #babdae;
-            box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
-            padding: 90px 0 0 10px;
-            transition: 0.3s;
-        }
-        #navbar.active {
-            right: 0px;
-        }
-    
-        #navbar li {
-            margin-bottom: 25px;
-        }
-    
-        #mobile {
-            display: flex;
-            align-items: center;
-        }
-        #mobile i {
-            color: #1a1a1a;
-            font-size: 24px;
-            padding-left: 20px;
-        }
-        #close {
-            display: initial;
-            position: absolute;
-            top: 30px;
-            left: 30px;
-            color: #222;
-            font-size: 24px;
-        }
-        .section-p1 {
-            padding: 0px 100px;
-        }
-    }
-
     @media (max-width: 768px) {
     .u-wrapper {
         width: 90%;
     }
-    .form .tag span {
-      display: block;
-      text-align: center;
-    }
-
+    .contact {
+      padding: 150px 10px 0;
+  }
 }
+
 @media (max-width: 480px) {
     .u-wrapper {
         width: 100%;
@@ -434,9 +230,5 @@ body::-webkit-scrollbar-thumb {
         margin-top: 20px;
     }
 
-
-#header {
-    padding: 0px 10px;
-}
 
 }
