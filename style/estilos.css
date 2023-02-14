@@ -377,7 +377,7 @@ nav .enlaces a:hover{
 #page-footer p {
   color: #fff;
   font-size: 25px;
-  padding: 30px;
+  padding: 30px 0;
   padding-bottom: 50px;
   letter-spacing: 8px;
 }
@@ -416,6 +416,89 @@ nav .enlaces a:hover{
   text-align: center;
   padding-bottom: 10px;
 }
+
+/* shop Page */
+
+#page-header {
+  background-image: url("/img/foto2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+#page-header h2 {
+  color: #fff;
+  font-size: 90px;
+  padding: 20px;
+  letter-spacing: 8px;
+}
+
+#page-header p {
+  color: #fff;
+  font-size: 30px;
+}
+
+#pagination {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+#pagination ul {
+  list-style: none;
+  
+}
+#pagination ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#pagination ul li a:hover {
+  background: #f3e5ab;
+}
+
+#pagination ul li .active {
+  background: #f3e5ab;
+}
+
+#pagination ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #000;
+  font-weight: 800;
+  background: #2f3648;
+  text-decoration: none;
+}
+
+/* FOOTER LINKS*/
+.footer-links {
+  background: #2f3648;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.footer-container {
+  display: grid;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.footer-copy {
+  background: #2f3648;
+  color: #616161;
+  font-size: 22px;
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 
 @media screen and (max-width: 1300px){
   .nav2{
@@ -488,6 +571,22 @@ nav .enlaces a:hover{
   }
 }
 
+@media (max-width: 799px) {
+  /* Tienda Page */
+
+  #page-header p {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 689px) {
+  /* Tienda Page */
+
+  #page-header {
+    background-size: 282vw 100%;
+  }
+}
+
 @media screen and (max-width: 500px){
   :root{
     --espacios-contenido: 25px;
@@ -518,6 +617,21 @@ nav .enlaces a:hover{
   .contenedor-nav {
     padding: 0px 10px;
 }
+
+/* Tienda Page */
+
+#page-header {
+  height: 70vh;
+  background-size: 245vw 70vh;
+}
+
+#page-header h2 {
+  font-size: 50px;
+}
+
+#page-header p {
+  font-size: 25px;
+}
 }
 
 @media screen and (max-width: 450px){
@@ -526,6 +640,9 @@ nav .enlaces a:hover{
     }
   #trabajo h3 {
     font-size: 40px;
+  }
+  .footer-container {
+    padding: 30px 10px;
   }
 }
 

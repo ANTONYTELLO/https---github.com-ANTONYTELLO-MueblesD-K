@@ -54,7 +54,7 @@ p {
 }
 
 .section-p1 {
-    padding: 0px 30px;            
+    padding: 0px 20px;            
 }
 
 .section-p11 {
@@ -70,9 +70,9 @@ p {
 }
 
 button.normal {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
-    padding: 15px 10%;
+    padding: 12px 15%;
     color: #000;
     background-color: #fff;
     border-radius: 4px;
@@ -96,6 +96,7 @@ button.white {
 
 button.normal a {
     color: #000;
+    text-decoration: none;
 }
 
 /* Header Start */
@@ -352,8 +353,8 @@ button.normal a {
 }
 
 #prodetails .single-pro-image {
-    width: 50%;
-    margin-right: 50px;
+    width: 60%;
+    margin-right: 20px;
     padding-top: 60px;
 }
 
@@ -369,7 +370,7 @@ button.normal a {
 }
 
 #prodetails .single-pro-datails {
-    width: 50%;
+    width: 42%;
     padding-top: 30px;
 }
 
@@ -392,7 +393,16 @@ button.normal a {
     display: block;
     padding: 5px 30%;
     margin-bottom: 15px;
+    border: none;
+    border-style: solid;
+    border-width: thin;
     margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#prodetails .single-pro-datails option {
+    font-weight: 600;
 }
 
 #prodetails .single-pro-datails input {
@@ -407,53 +417,21 @@ button.normal a {
     outline: none;
 }
 #prodetails .single-pro-datails button {
+    background: #00e059;
     border-style: solid;
     border-width: thin;
+}
+
+#prodetails .single-pro-datails i {
+    font-size: 20px;
+    padding: 0px 20px;
 }
 
 #prodetails .single-pro-datails span {
     font-size: 35px;
 }
 
-
-/* Modelos de Muebles */
-
-.mode-muebles {
-	width: 100%;
-	height: 90vh;
-	animation: mode-muebles 20s infinite linear;
-	background-size: 100% 100%;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-@keyframes mode-muebles {
-	0%{
-		background-image: url("img/bannermodelos/banner1.webp");
-	}
-	25%{
-		background-image: url("img/bannermodelos/banner1.webp");
-	}
-    26%{
-        background-image: url("img/bannermodelos/banner2.webp");
-    }
-    50%{
-        background-image: url("img/bannermodelos/banner2.webp");
-    }
-    51%{
-        background-image: url("img/bannermodelos/banner3.webp");
-    }
-	75%{
-		background-image: url("img/bannermodelos/banner3.webp");
-	}
-	76%{
-		background-image: url("img/bannermodelos/banner4.webp");
-	}
-    100%{
-        background-image: url("img/bannermodelos/banner4.webp");
-    }
-}
+/* Capa */
 .capa{
 	width: 100%;
 	height: 100%;
@@ -462,24 +440,7 @@ button.normal a {
 	left: 0;
 	background: rgba(0,0,0,0.7);
 }
-.mode-muebles .info{
-	z-index: 1;
-	width: 100%;
-	max-width: 800px;
-	text-align: center;
-}
-.mode-muebles .info h1{
-	color: #fff;
-	font-size: 79px;
-	margin-bottom: 45px;
-	letter-spacing: 3px;
-}
-.mode-muebles .info p{
-	color: #fff;
-    font-size: 30px;
-	line-height: 1.7;
-	margin-bottom: 30px;
-}
+
 
 
 /* Modelos Muebles321 */
@@ -922,13 +883,37 @@ button.normal a {
 }
 
 @media (max-width: 1500px) {
+    .section-p1 {
+        padding: 0px 20px;
+    }
+    .section-p11 {
+        padding: 30px 10px;
+    }
+    
     #product1 .pro {
         min-width: 49%;
+    }
+    #prodetails .single-pro-image {
+        width: 80%;
+        margin-right: 20px;
+        padding-top: 60px;
+    }
+    #prodetails .single-pro-datails {
+        width: 50%;
+        padding-top: 20px;
+    }
+    #prodetails .single-pro-datails h4 {
+        font-size: 35px;
+        padding: 15px 0 5px 0;
+    }
+    #prodetails .single-pro-datails span {
+        font-size: 30px;
     }
     #product1 .pro img {
         height: 350px;
     }
 }
+
 @media (max-width: 1340px) {
     #navbar {
         display: flex;
@@ -974,14 +959,27 @@ button.normal a {
         color: #222;
         font-size: 24px;
     }
-    .section-p1 {
-        padding: 0px 100px;
-    }
 }
 
 @media (max-width: 1280px) {
+    #prodetails {
+        align-items: center;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 15px;
+    }
+    #prodetails .single-pro-datails {
+        width: 100%;
+        padding-top: 20px;
+    }
     .section-p11 {
         padding: 20px 20px;
+    }
+    .section-p1 {
+        padding: 0px 20px;
     }
     #product1 .pro {
         min-width: 49%;
@@ -1011,7 +1009,7 @@ button.normal a {
     }
     #prodetails .single-pro-image {
         width: 100%;
-        padding-top: 30px;
+        padding-top: 20px;
     }
     #prodetails .single-pro-datails {
         width: 100%;
@@ -1058,26 +1056,7 @@ button.normal a {
         height: 400px;
         border-radius: 20px;
     }
-    #banner img {
-        height: 350px;
-    }
-    #probanner {
-        flex-wrap: wrap;
-    }
-    #probanner .banner-box {
-        min-width: 100%;
-        height: 40vh;
-    }
-    #probanner .banner-box2 {
-        margin-top: 20px;
-    }
-    #banner2 {
-        flex-direction: row;
-        padding: 10px 20px;
-    }
-    #banner2 .banner-box {
-        width: 31%;
-    }
+    
     /* Tienda Page */
 
     #page-header p {
@@ -1104,7 +1083,7 @@ button.normal a {
 
 @media (max-width: 477px) {
     p {
-        margin: 20px 0 50px 0;
+        margin: 20px 0 10px 0;
     }
     .section-p1 {
         padding: 10px;            
@@ -1145,31 +1124,6 @@ button.normal a {
         height: 250px;
         border-radius: 20px;
     }
-    #banner img {
-        height: 30vh;
-        padding: 0px;
-    }
-    #probanner {
-        flex-wrap: wrap;
-    }
-    #probanner .banner-box {
-        height: 40vh;
-    }
-    #probanner .banner-box2 {
-        margin-top: 20px;
-    }
-    #banner2 {
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    #banner2 h3 {
-        line-height: 40px;
-    }
-    #banner2 .banner-box {
-        width: 100%;
-        margin-top: 10px;
-        height: 30vh;
-    }
     .links {
         font-size: 50px;
     }
@@ -1196,7 +1150,6 @@ button.normal a {
     /* Single Product */
     #prodetails {
         flex-direction: column;
-        margin-top: 10px;
     }
     #prodetails .single-pro-image {
         width: 100%;
@@ -1207,43 +1160,12 @@ button.normal a {
         width: 100%;
     }
     #prodetails .single-pro-datails h4 {
-        padding: 30px 0 10px 0;
+        padding: 20px 0 10px 0;
+        font-size: 40px;
     }
     #prodetails .single-pro-datails span {
         font-size: 20px;
         line-height: 31px;
-    }
-
-
-    /* Modelos de Muebles */
-
-    .mode-muebles {
-        height: 30vh;
-    }
-
-    .mode-muebles .info h1 {
-        font-size: 40px;
-        margin-bottom: 0px;
-    }   
-
-    .mode-muebles .info p{
-        display: none;
-    }
-
-    /* Modelos de Muebles321 */
-
-    .mode-muebles321 {
-        height: 30vh;
-    }
-
-    .mode-muebles321 .info h1 {
-        font-size: 45px;
-        margin-bottom: 20px;
-    }
-
-    .mode-muebles321 .info p{
-        color: #fff;
-        font-size: 22px;
     }
 
     /* Modelos de Mueblescama */
@@ -1378,6 +1300,15 @@ button.normal a {
 
 @media (max-width: 360px) {
     .section-p1 {
-        padding: 15px;
+        padding: 10px;
+    }
+    #prodetails .single-pro-datails select {
+        padding: 5px 25%;
+    }
+    #prodetails .single-pro-datails h4 {
+        font-size: 35px;
+    }
+    button.normal {
+        padding: 12px 15px;
     }
 }
