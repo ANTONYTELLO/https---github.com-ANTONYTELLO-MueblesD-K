@@ -218,6 +218,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 480px) {
+  header2 {
+    background-size: 100vw 120vh;
+  }
     .u-wrapper {
         width: 100%;
     }
