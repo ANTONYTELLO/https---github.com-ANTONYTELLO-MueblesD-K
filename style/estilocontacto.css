@@ -171,32 +171,6 @@ header2 {
   .footer {
     text-align: center;
   }
-
-/* FOOTER LINKS*/
-.footer-links {
-    background: #2f3648;
-    color: #ffffff;
-    font-size: 22px;
-    text-align: center;
-}
-
-.footer-container {
-    display: grid;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 50px;
-}
-
-.footer-copy {
-    background: #2f3648;
-    color: #616161;
-    font-size: 22px;
-    padding: 20px 0;
-    text-align: center;
-    padding-bottom: 20px;
-}
- 
     
 /* Scroll Barra Personalizada */
 
