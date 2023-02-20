@@ -792,16 +792,16 @@ button.normal a {
 }
 @keyframes mode-mueblesmoduvintage {
 	0%, 25%{
-		background-image: url("img/bannermodelos/bannervintage/turqueza4.webp");
+		background-image: url("img/products/moduvintageimg/turqueza1.jpg");
 	}
 	26%, 50%{
-		background-image: url("img/bannermodelos/bannervintage/chocolate1.webp");
+		background-image: url("img/products/moduvintageimg/chocolate1.jpg");
 	}
 	51%, 75%{
-		background-image: url("img/bannermodelos/bannervintage/crema1.webp");
+		background-image: url("img/products/moduvintageimg/crema2.jpg");
 	}
 	76%, 100%{
-		background-image: url("img/bannermodelos/bannervintage/azul2.webp");
+		background-image: url("img/products/moduvintageimg/azul1.jpg");
 	}
 }
 .mode-mueblesmoduvintage .info{
