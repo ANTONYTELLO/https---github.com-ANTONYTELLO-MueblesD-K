@@ -614,6 +614,9 @@ nav .enlaces a:hover{
   }
 }
 @media (max-width: 480px){
+  header {
+    background-attachment: inherit;
+  }
   .contenedor-nav {
     padding: 0px 10px;
 }
