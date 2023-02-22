@@ -1,0 +1,490 @@
+:root{
+    --fondo1: #ffff;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Scroll Barra Personalizada */
+  
+  body::-webkit-scrollbar {
+    width: 7px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #ff9d00;
+    border-radius: 5px;
+  }
+  
+  body {
+    font-family: 'open sans';
+    background: white;
+  }
+  
+  /* Preloader */
+  .hidden{
+    overflow: hidden;
+  }
+  
+  .centrado{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: #cef;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  
+  .lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+  }
+  
+  .lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+  }
+  
+  .lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+  }
+  
+  @keyframes lds-facebook {
+    0% {
+      top: 6px;
+      height: 51px;
+    }
+  
+    50%,
+    100% {
+      top: 19px;
+      height: 26px;
+    }
+  }
+/* Header */
+
+  nav{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
+  }
+  
+  .nav1{
+    background: transparent;
+    height: 100px;
+    color:#000;
+  }
+  
+  .nav2{
+    background: var(--fondo1);
+    height:100px;
+    color:#000;
+    z-index: 1;
+  }
+  
+  #equipo h3 ,
+  #trabajo h3 {
+    color: #000;
+  }
+  #equipo p ,
+  #trabajo p {
+    color: #000;
+  }
+  
+  .contenedor-nav{
+    display: flex;
+    margin: auto;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+  }
+  
+  nav .enlaces a{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 17px;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: inherit;
+  }
+  
+  nav .enlaces a:hover{
+    border-bottom: 3px solid #1498a4;
+    transition: 0.6s;
+  }
+  
+  .logo, .logo img{ height:100px;}
+  
+  .icono{
+    display:none;
+    font-size: 30px;
+    padding: 23.5px 20px;
+  }
+  
+  .textos{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .textos>h1{font-size:80px;;}
+  
+  .textos>h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 26px;
+    padding-bottom: 50px;
+  }
+  
+  .textos button {
+    background-image: url(../img/button123.png);
+    background-color: transparent;
+    color: #222;
+    border: 0;
+    padding: 15px 50px 14px 60px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+/* shop Page */
+
+#blog {
+    padding: 150px 150px 0 150px;
+  }
+  
+  #blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+  }
+  
+  #blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+  }
+  
+  #blog img {
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  #blog .blog-details{
+    width: 50%;
+  }
+
+  #blog .blog-details h4{
+    font-size: 20px;
+  }
+  
+  #blog .blog-details a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  #blog .blog-details p {
+    font-size: 18px;
+    color: #465b52;
+    margin: 20px 0 20px 0;
+}
+
+  #blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 11px;
+    right: -65px;
+  }
+  
+  #blog .blog-details a:hover{
+    color: #1498a4;
+  }
+  
+  #blog .blog-details a:hover::after{
+    background-color: #1498a4;
+  }
+  
+  #blog .blog-box h1{
+    position: absolute;
+    top: -65px;
+    left: 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: red;
+    z-index: -9;
+  }
+  
+  #page-header {
+    background-image: url("/img/foto2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  
+  #page-header h2 {
+    color: #fff;
+    font-size: 90px;
+    padding: 20px;
+    letter-spacing: 8px;
+  }
+  
+  #page-header p {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  #pagination {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0px;
+  }
+  
+  #pagination ul {
+    list-style: none;
+    
+  }
+  #pagination ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #pagination ul li a:hover {
+    background: #f3e5ab;
+  }
+  
+  #pagination ul li .active {
+    background: #f3e5ab;
+  }
+  
+  #pagination ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #000;
+    font-weight: 800;
+    background: #2f3648;
+    text-decoration: none;
+  }
+  
+  /* FOOTER LINKS*/
+  .footer-links {
+    background: #2f3648;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: grid;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 10px;
+  }
+  
+  .footer-copy {
+    background: #2f3648;
+    color: #616161;
+    font-size: 22px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (max-width: 1300px){
+    .nav2{
+      color: #fff;
+    }
+    .icono{
+      display:block;
+      cursor: pointer;
+    }
+    nav .enlaces a{
+      font-size: 24px;
+    }
+    .enlaces{
+      position: fixed;
+      top: 100px;
+      background-color: #babdae;
+      background-image: url(/img/cojines1.jpeg);
+      background-size: 100% 450px;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      right: 0;
+      height: 100%;
+      transition: 1s;
+      width: 0;
+      overflow: hidden;
+    }
+    .enlaces a{
+      display: block;
+      width: 100%;
+      height: 50px;
+      padding: 20px;
+      text-align: initial;
+      color:#fff;
+    }
+  }
+  
+  @media screen and (max-width: 999px){
+    .cont-work{
+      width: 95%;
+    }
+    .marca-logo img{
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    /* Tienda Page */
+  
+    #page-header p {
+        font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 689px) {
+    /* Tienda Page */
+  
+    #page-header {
+      background-size: 282vw 100%;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    .marca-logo{
+      width: 100%;
+    }
+  
+    .iconos{
+      margin: auto;
+    }
+  }
+  @media (max-width: 480px){
+    header {
+      background-attachment: inherit;
+    }
+    .contenedor-nav {
+      padding: 0px 10px;
+  }
+  
+  /* Tienda Page */
+  
+  #page-header {
+    height: 70vh;
+    background-size: 245vw 70vh;
+  }
+  
+  #page-header h2 {
+    font-size: 50px;
+  }
+  
+  #page-header p {
+    font-size: 25px;
+  }
+
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+
+#blog .blog-details {
+  width: 100%;
+}
+
+}
+  
+  @media screen and (max-width: 450px){
+    .footer-container {
+      padding: 30px 10px;
+    }
+  }
+  
+  @media screen and (max-width: 400px){
+    .botones-work li{
+      padding: 8px 12px;
+    }
+  
+    .textos>h1 {
+      font-size: 50px;
+      }
+  .contenedor h3{
+    font-size: 50px;
+  }
+  .marca-logo img{
+    width: 80%;
+  }
+}
+  
+  @media screen and (max-width: 390px){
+    #page-footer {
+      height: 40vh;
+      padding: 11px;
+    }
+    #page-footer p {
+      color: #fff;
+      font-size: 20px;
+      padding: 10px;
+      padding-bottom: 10px;
+      letter-spacing: 4px;
+    }
+    .fab{
+      font-size: 40px;
+      margin-bottom: 0px;
+    }
+  
+  }
