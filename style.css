@@ -598,13 +598,13 @@ button.normal a {
 	0%, 25%{
 		background-image: url("/img/products/moduburbuimg/burbujaconpuff/10.webp");
 	}
-	25%, 50%{
+	26%, 50%{
 		background-image: url("/img/products/moduburbuimg/burbujaconpuff/14.webp");
 	}
-	50%, 75%{
+	51%, 75%{
 		background-image: url("/img/products/moduburbuimg/burbujaconpuff/11.webp");
 	}
-	75%, 100%{
+	76%, 100%{
 		background-image: url("/img/products/moduburbuimg/burbujaconpuff/17.webp");
 	}
 }
@@ -642,16 +642,16 @@ button.normal a {
 }
 @keyframes mode-mueblesrex {
 	0%, 25%{
-		background-image: url("img/products/modureximg/100.jpg");
+		background-image: url("/img/products/modureximg/100.jpg");
 	}
 	26%, 50%{
-		background-image: url("img/products/modureximg/2.jpg");
+		background-image: url("/img/products/modureximg/2.jpg");
 	}
 	51%, 75%{
-		background-image: url("img/products/modureximg/22.jpg");
+		background-image: url("/img/products/modureximg/22.jpg");
 	}
 	76%, 100%{
-		background-image: url("img/products/modureximg/1.jpg");
+		background-image: url("/img/products/modureximg/1.jpg");
 	}
 }
 .mode-mueblesrex .info{
@@ -792,16 +792,16 @@ button.normal a {
 }
 @keyframes mode-mueblesmoduvintage {
 	0%, 25%{
-		background-image: url("img/products/moduvintageimg/turqueza1.jpg");
+		background-image: url("/img/products/moduvintageimg/turqueza1.webp");
 	}
 	26%, 50%{
-		background-image: url("img/products/moduvintageimg/chocolate1.jpg");
+		background-image: url("/img/products/moduvintageimg/chocolate1.webp");
 	}
 	51%, 75%{
-		background-image: url("img/products/moduvintageimg/crema7.jpg");
+		background-image: url("/img/products/moduvintageimg/crema8.jpg");
 	}
 	76%, 100%{
-		background-image: url("img/products/moduvintageimg/azul1.jpg");
+		background-image: url("/img/products/moduvintageimg/azul1.webp");
 	}
 }
 .mode-mueblesmoduvintage .info{
@@ -838,16 +838,16 @@ button.normal a {
 }
 @keyframes mode-mueblesmodubrazo {
 	0%, 25%{
-		background-image: url("img/products/modubrazoimg/1000.jpg");
+		background-image: url("/img/products/modubrazoimg/1000.jpg");
 	}
 	26%, 50%{
-		background-image: url("img/products/modubrazoimg/900.jpg");
+		background-image: url("/img/products/modubrazoimg/900.jpg");
 	}
 	51%, 75%{
-		background-image: url("img/products/modubrazoimg/507.jpg");
+		background-image: url("/img/products/modubrazoimg/507.jpg");
 	}
 	76%, 100%{
-		background-image: url("img/products/modubrazoimg/107.jpg");
+		background-image: url("/img/products/modubrazoimg/107.jpg");
 	}
 }
 .mode-mueblesmodubrazo .info{

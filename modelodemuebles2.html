@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="google-site-verification" content="7m4XXJ7RjwSsmKtGYZGRcs7GQ9vf14P7ntxf9xKCOGg" />
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MUEBLES D&K</title>
     <link rel="icon" href="img/logo.ico">
-    <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="fondoanimadocss/mueblesmodelos.css">
+    <link rel="stylesheet" href="fondoanimadocss/mueblesmodelos2.css">
+    <link rel="stylesheet" href="style/estilos.css">
+    <link rel="stylesheet" href="style/estilosvista.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
-<body>
-    
-        
-        <section id="header">
-            <a href="index.html"><img src="img/logopage.webp" height ="100" width="170" class="logo" alt=""></a>
-            <div>
-                <ul id="navbar">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="shop.html">Nosotros</a> </li>
-                    <li><a class="active" href="modelodemuebles.html">Modelo de Muebles</a></li>
-                    <li><a href="about.html">Complementos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-                </ul>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header4>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logopage.webp" width="170" alt=""></a>
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a class="active" href="index.html">Inicio</a>
+                    <a href="shop.html">Nosotros</a>
+                    <a href="modelodemuebles.html">Modelo de Muebles</a>
+                    <a href="#">Complementos</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
             </div>
-            <div id="mobile">
-                <i id="bar" class="fa-solid fa-outdent"></i>
-            </div>
-        </section>
+        </nav>
     
         <div class="mode-muebles">
             <div class="capa"></div>
@@ -142,8 +146,11 @@
             </div>
         </footer>
 
-        <script src="script.js"></script>
-        <!--Scroll Reveal-->
+
+        <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+    <!--Scroll Reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--reveal-->
     <script src="scrollreveal/scrollconfi.js"></script>
