@@ -109,7 +109,7 @@ nav{
 
 .nav1{
   background: transparent;
-  position: inherit;
+  position: fixed;
   height: 100px;
   color:#000;
   z-index: 9;
@@ -496,7 +496,6 @@ nav .enlaces a:hover{
     transition: 1s;
     width: 0;
     overflow: hidden;
-    z-index: 1;
   }
   .enlaces a{
     display: block;
@@ -565,9 +564,6 @@ nav .enlaces a:hover{
   }
 }
 @media (max-width: 480px){
-  header {
-    background-attachment: inherit;
-  }
   .contenedor-nav {
     padding: 0px 10px;
 }
@@ -586,6 +582,9 @@ nav .enlaces a:hover{
 }
 
 @media screen and (max-width: 400px){
+  header{
+    background-attachment: inherit;
+  }
   .botones-work li{
     padding: 8px 12px;
   }
