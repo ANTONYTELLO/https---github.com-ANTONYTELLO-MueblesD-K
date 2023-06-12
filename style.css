@@ -353,7 +353,7 @@ button.normal a {
 }
 
 #prodetails .single-pro-image {
-    width: 60%;
+    width: 55%;
     margin-right: 20px;
     padding-top: 60px;
 }
@@ -370,7 +370,7 @@ button.normal a {
 }
 
 #prodetails .single-pro-datails {
-    width: 42%;
+    width: 43.8%;
     padding-top: 30px;
 }
 
@@ -893,12 +893,12 @@ button.normal a {
         min-width: 49%;
     }
     #prodetails .single-pro-image {
-        width: 80%;
+        width: 60%;
         margin-right: 20px;
         padding-top: 60px;
     }
     #prodetails .single-pro-datails {
-        width: 50%;
+        width: 40%;
         padding-top: 20px;
     }
     #prodetails .single-pro-datails h4 {
@@ -1131,19 +1131,6 @@ button.normal a {
     }
     .footer-mapa {
         padding: 0 0;
-    }
-    /* Tienda Page */
-
-    #page-header {
-        height: 60vh;
-    }
-
-    #page-header h2 {
-        font-size: 50px;
-    }
-    
-    #page-header p {
-        font-size: 25px;
     }
 
     /* Single Product */
