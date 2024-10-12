@@ -101,10 +101,85 @@ header{
   background-size: cover;
 }
 
+/* Modelos 321 */
+
+.mode-muebles321 {
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background-image: url("../img/products/modu321img/gala/2.jpg");
+}
+
+.mode-muebles321 .info{
+	z-index: 0;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-muebles321 .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-muebles321 .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+/* Modelo Vip */
+
+.mode-mueblesvip {
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background-image: url("../img/products/moducamaimg/1.jpg");
+}
+
+.mode-mueblesvip .info{
+	z-index: 0;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-mueblesvip .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-mueblesvip .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+
 nav{
   width: 100%;
   position: fixed;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
+}
+
+/* Capa */
+.capa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
 }
 
 .nav1{
@@ -408,6 +483,15 @@ nav .enlaces a:hover{
   padding-bottom: 10px;
 }
 
+.footer-copy3 {
+  background: #2f3648;
+  color: #616161;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 #pagination {
   background-color: white;
   text-align: center;
@@ -566,6 +650,40 @@ nav .enlaces a:hover{
 @media (max-width: 480px){
   .contenedor-nav {
     padding: 0px 10px;
+}
+}
+
+
+@media (max-width: 477px) {
+  /* Modelos de Muebles321 */
+    
+  .mode-muebles321 {
+    height: 60vh;
+}
+
+.mode-muebles321 .info h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.mode-muebles321 .info p{
+    color: #fff;
+    font-size: 22px;
+}
+/* Modelo Vip */
+    
+.mode-mueblesvip {
+  height: 60vh;
+}
+
+.mode-mueblesvip .info h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.mode-mueblesvip .info p{
+  color: #fff;
+  font-size: 22px;
 }
 }
 

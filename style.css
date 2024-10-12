@@ -54,11 +54,7 @@ p {
 }
 
 .section-p1 {
-    padding: 0px 20px;            
-}
-
-.section-p11 {
-    padding: 20px 30px;            
+    padding: 110px 110px 40px 20px;            
 }
 
 .section-p111 {
@@ -72,7 +68,7 @@ p {
 button.normal {
     font-size: 16px;
     font-weight: 600;
-    padding: 12px 15%;
+    padding: 12px 25%;
     color: #000;
     background-color: #fff;
     border-radius: 4px;
@@ -99,66 +95,63 @@ button.normal a {
     text-decoration: none;
 }
 
-/* Header Start */
+/* Header */
 
-#header {
+nav{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
+  }
+  
+
+
+
+  .nav1{
+    background: transparent;
+    height: 100px;
+    color:#000;
+  }
+  
+  .nav2{
+    background: var(--fondo1);
+    height:100px;
+    color:#000;
+    z-index: 1;
+  }
+  
+  .contenedor-nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: auto;
     padding: 0px 30px;
-    background-color: #babdae;
-    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f0f1d9' fill-opacity='0.8' fill-rule='evenodd'/%3E%3C/svg%3E");
-    z-index: 999;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
-#navbar {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-}
-
-#navbar li {
-    list-style: none;
-    padding: 0 20px;
-    position: relative;
-}
-
-#navbar li a {
-    text-decoration: none;
+    height: inherit;
+    overflow: hidden;
+  }
+  
+  nav .enlaces a{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 17px;
     font-size: 21px;
     font-weight: 600;
-    margin-right: 17px;
-    color: #000;
-    transition: 0.3s ease;
-}
-
-#navbar li a:hover,
-#navbar li a.active {
-    color: #088178;
-}
-
-#navbar li a.active::after,
-#navbar li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 3px;
-    background: #088178;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
-}
-
-#mobile {
-    display: none;
-    align-items: center;
-}
-
-#close {
-    display: none;
-}
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: inherit;
+  }
+  
+  nav .enlaces a:hover{
+    border-bottom: 3px solid #1498a4;
+    transition: 0.6s;
+  }
+  
+  .logo, .logo img{ height:100px;}
+  
+  .icono{
+    display:none;
+    font-size: 30px;
+    padding: 23.5px 20px;
+  }
 
 
 /* Home Page */
@@ -371,20 +364,22 @@ button.normal a {
 
 #prodetails .single-pro-datails {
     width: 43.8%;
-    padding-top: 30px;
+    padding-top: 90px;
 }
 
 #prodetails .single-pro-datails h6 {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 #prodetails .single-pro-datails h4 {
-    font-size: 40px;
-    padding: 40px 0 20px 0;
+    font-size: 50px;
+    padding: 35px 0 20px 0;
 }
 
 #prodetails .single-pro-datails h2 {
     font-size: 30px;
+    padding: 0px 0 20px 0;
+
 }
 #prodetails .single-pro-datails pre {
     font-size: 25px;
@@ -429,16 +424,6 @@ button.normal a {
 
 #prodetails .single-pro-datails span {
     font-size: 35px;
-}
-
-/* Capa */
-.capa{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.7);
 }
 
 
@@ -883,10 +868,7 @@ button.normal a {
 
 @media (max-width: 1500px) {
     .section-p1 {
-        padding: 0px 20px;
-    }
-    .section-p11 {
-        padding: 30px 10px;
+        padding: 110px 20px;
     }
     
     #product1 .pro {
@@ -974,11 +956,9 @@ button.normal a {
         width: 100%;
         padding-top: 20px;
     }
-    .section-p11 {
-        padding: 20px 20px;
-    }
+
     .section-p1 {
-        padding: 0px 20px;
+        padding: 110px 20px;
     }
     #product1 .pro {
         min-width: 49%;
@@ -987,7 +967,7 @@ button.normal a {
 
 @media (max-width: 1024px) {  
     .section-p1 {
-        padding: 0px 20px;
+        padding: 110px 20px;
     }
     .section-p111 {
         padding: 0px 20px;
@@ -997,9 +977,6 @@ button.normal a {
     }
 }
 @media (max-width: 899px) {
-    .section-p11 {
-        padding: 30px 10px;
-    }
     #product1 .pro {
         min-width: 48.9%;
     }
@@ -1018,11 +995,9 @@ button.normal a {
 
 @media (max-width: 799px) {
     .section-p1 {
-        padding: 0px 20px;            
+        padding: 110px 20px;            
     }
-    .section-p11 {
-        padding: 40px 20px;            
-    }
+
     .section-p111 {
         padding: 0 20px;            
     }
@@ -1085,10 +1060,7 @@ button.normal a {
         margin: 20px 0 10px 0;
     }
     .section-p1 {
-        padding: 10px;            
-    }
-    .section-p11 {
-        padding: 10px;            
+        padding: 110px 10px 10px;            
     }
     .section-p111 {
         padding: 10px;            
@@ -1144,6 +1116,9 @@ button.normal a {
     }
     #prodetails .single-pro-datails {
         width: 100%;
+    }
+    #prodetails .single-pro-datails h6 {
+        font-size: 16px;
     }
     #prodetails .single-pro-datails h4 {
         padding: 20px 0 10px 0;
@@ -1286,7 +1261,7 @@ button.normal a {
 
 @media (max-width: 360px) {
     .section-p1 {
-        padding: 10px;
+        padding: 110px 10px;
     }
     #prodetails .single-pro-datails select {
         padding: 5px 25%;
