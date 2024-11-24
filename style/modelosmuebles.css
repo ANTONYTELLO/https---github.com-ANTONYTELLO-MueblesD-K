@@ -279,6 +279,124 @@
     padding-top: 26px;
     padding-bottom: 50px;
   }
+
+/* Modelos moduvintage */
+
+.mode-moduvintage {
+    background-image: url("/img/products/moduvintageimg/turqueza4.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mode-moduvintage .info{
+	z-index: 0;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+.mode-moduvintage .info h1{
+	color: #fff;
+	font-size: 65px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.mode-moduvintage .info p{
+	color: #c7c7c7;
+    font-size: 25px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+  
+  nav{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
+  }
+  
+  .nav1{
+    background: transparent;
+    position: fixed;
+    height: 100px;
+    color:#000;
+    z-index: 9;
+  }
+  
+  .nav2{
+    background: var(--fondo1);
+    height:100px;
+    color:#000;
+    z-index: 1;
+  }
+  
+  #equipo h3 ,
+  #trabajo h3 {
+    color: #000;
+  }
+  #equipo p ,
+  #trabajo p {
+    color: #000;
+  }
+  
+  .contenedor-nav{
+    display: flex;
+    margin: auto;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+  }
+  
+  nav .enlaces a{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 17px;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: inherit;
+  }
+  
+  nav .enlaces a:hover{
+    border-bottom: 3px solid #1498a4;
+    transition: 0.6s;
+  }
+  
+  .logo, .logo img{ height:100px;}
+  
+  .icono{
+    display:none;
+    font-size: 30px;
+    padding: 23.5px 20px;
+  }
+  
+  .textos{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .textos>h1{font-size:80px;;}
+  
+  .textos>h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 26px;
+    padding-bottom: 50px;
+  }
+
   
   /* Main */
   

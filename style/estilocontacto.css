@@ -8,7 +8,7 @@
 
 header2 {
   width: 100%;
-  background: url(/img/pegaso.jpg);
+  background: url(/img/contacto.webp);
   background-attachment: fixed;
   background-position: center;
   background-size: 100vw 100vh;
@@ -136,7 +136,7 @@ header2 {
   
   .contact {
     margin-block-end: 1em;
-    padding: 200px 10px 0;
+    padding: 15vh 10px 0;
   }
 
 
