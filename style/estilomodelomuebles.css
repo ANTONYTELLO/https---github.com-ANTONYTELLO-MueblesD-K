@@ -423,7 +423,8 @@
 
 @media (max-width: 480px) {
   header {
-    background-size: 140vw 100vh;
+    background: url(../img/estilomuebles2.webp);
+    background-size: 140vw 100%;
     background-attachment: inherit;
   }
   .section-p11 {
