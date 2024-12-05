@@ -193,6 +193,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 480px) {
   header2 {
+    background: url(../img/portadacontacto.webp);
     background-size: 100vw 100%;
     background-attachment: inherit;
   }
