@@ -421,7 +421,11 @@
   }
 }
 
-@media (max-width: 477px) {
+@media (max-width: 480px) {
+  header {
+    background-size: 140vw 100vh;
+    background-attachment: inherit;
+  }
   .section-p11 {
       padding: 0px 10px;            
   }
