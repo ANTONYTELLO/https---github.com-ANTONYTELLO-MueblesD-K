@@ -194,7 +194,6 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 480px) {
   header2 {
     background-size: 239vw 120vh;
-    background-attachment: inherit;
   }
     .u-wrapper {
         width: 100%;
